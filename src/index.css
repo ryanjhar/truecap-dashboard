@@ -1,0 +1,73 @@
+/* ── TrueCap global styles ─────────────────────────────────────────────────── */
+
+:root {
+  --bg:        #080808;
+  --surface:   #0f0f0f;
+  --surface-2: #141414;
+  --surface-3: #1a1a1a;
+  --border:    #1f1f1f;
+  --border-2:  #2a2a2a;
+  --text-1:    #e8edf3;
+  --text-2:    #8a95a3;
+  --text-3:    #4a5568;
+  --text-4:    #2a3140;
+  --green:     #34d399;
+  --amber:     #fbbf24;
+  --red:       #f87171;
+  --blue:      #60a5fa;
+  --font-ui:   'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-data: 'IBM Plex Mono', 'SF Mono', 'Fira Mono', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-1);
+  font-family: var(--font-ui);
+}
+
+code { font-family: var(--font-data); }
+
+/* ── scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar             { width: 5px; height: 5px; }
+::-webkit-scrollbar-track       { background: transparent; }
+::-webkit-scrollbar-thumb       { background: var(--border-2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-3); }
+
+::selection { background: rgba(96,165,250,0.15); color: var(--text-1); }
+
+/* ── keyframes ─────────────────────────────────────────────────────────────── */
+@keyframes tc-shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+@keyframes tc-fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+@keyframes tc-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes tc-pulse-dot {
+  0%, 100% { opacity: 1;   }
+  50%       { opacity: 0.3; }
+}
+
+/* ── utility ───────────────────────────────────────────────────────────────── */
+.tc-mono     { font-family: var(--font-data) !important; }
+.tc-fade-up  { animation: tc-fade-up 0.4s cubic-bezier(0.16,1,0.3,1) both; }
+.tc-fade-in  { animation: tc-fade-in 0.25s ease both; }
+.tc-live-dot {
+  display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--green); animation: tc-pulse-dot 2.2s ease-in-out infinite;
+  vertical-align: middle;
+}

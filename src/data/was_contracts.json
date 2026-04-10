@@ -1,0 +1,3361 @@
+{
+  "scraped_at": "2026-04-08T10:07:00.827604Z",
+  "team_slug": "washington-commanders",
+  "team_code": "WAS",
+  "cap_summary": {
+    "2026 NFL Salary Cap": "$301,200,000",
+    "2025 Rollover Cap": "$23,870,119",
+    "Adjustment": "$3,560,507",
+    "Adjusted Salary Cap": "$328,630,626",
+    "Active Roster": "$277,937,022",
+    "Dead Money": "$20,692,731",
+    "Cap Allocations (Top-51)": "$278,184,753",
+    "Cap Space (Top-51)": "$50,445,873"
+  },
+  "roster": [
+    {
+      "name": "Payne\nDaron Payne",
+      "full_name": "Daron Payne",
+      "last_name": "Payne",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/25108/daron-payne",
+      "position": "DL",
+      "age": "29",
+      "cap_hit": "$27,950,000",
+      "cap_hit_pct": "9.28",
+      "dead_cap": "$16,200,000",
+      "base_salary": "$16,400,000",
+      "signing_bonus": "$5,600,000",
+      "per_game_bonus": "$450,000",
+      "roster_bonus": "$5,000,000",
+      "option_bonus": "",
+      "workout_bonus": "$500,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$27,950,000",
+          "dead_cap": "$16,200,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$5,600,000",
+          "dead_cap": "",
+          "status": "void ufa"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.048363Z",
+      "enrich": {
+        "grade": "B",
+        "value": "0% FAIR",
+        "note": "Market-rate elite DL contract; reasonable for tier-one production.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Cosmi\nSamuel Cosmi",
+      "full_name": "Samuel Cosmi",
+      "last_name": "Cosmi",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/72431/samuel-cosmi",
+      "position": "G",
+      "age": "27",
+      "cap_hit": "$20,260,000",
+      "cap_hit_pct": "6.73",
+      "dead_cap": "$27,500,000",
+      "base_salary": "$15,500,000",
+      "signing_bonus": "$4,000,000",
+      "per_game_bonus": "$270,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$490,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "6.73%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "6.19%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "5.66%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.048664Z",
+      "enrich": {
+        "grade": "C+",
+        "value": "+330% OVER",
+        "note": "Elite guard pay for serviceable starter; massive overpay vs tier peers.",
+        "decision": {
+          "year": 2026,
+          "type": "restructure"
+        }
+      }
+    },
+    {
+      "name": "McLaurin\nTerry McLaurin",
+      "full_name": "Terry McLaurin",
+      "last_name": "McLaurin",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/29112/terry-mclaurin",
+      "position": "WR",
+      "age": "31",
+      "cap_hit": "$18,000,000",
+      "cap_hit_pct": "5.98",
+      "dead_cap": "$42,500,000",
+      "base_salary": "$2,900,000",
+      "signing_bonus": "$11,600,000",
+      "per_game_bonus": "$500,000",
+      "roster_bonus": "",
+      "option_bonus": "$2,500,000",
+      "workout_bonus": "$500,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$18,000,000",
+          "dead_cap": "$42,500,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$34,000,000",
+          "dead_cap": "$18,000,000",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$39,500,000",
+          "dead_cap": "$12,000,000",
+          "status": "active"
+        },
+        {
+          "year": 2029,
+          "cap_hit": "$8,500,000",
+          "dead_cap": "$6,000,000",
+          "status": "void ufa"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.048920Z",
+      "enrich": {
+        "grade": "D",
+        "value": "+386% OVER",
+        "note": "Severely overpaid for T4 depth role; massive dead cap creates trade/cut impossibility.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Kinlaw\nJavon Kinlaw",
+      "full_name": "Javon Kinlaw",
+      "last_name": "Kinlaw",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/47608/javon-kinlaw",
+      "position": "DL",
+      "age": "29",
+      "cap_hit": "$16,200,000",
+      "cap_hit_pct": "5.38",
+      "dead_cap": "$23,200,000",
+      "base_salary": "$12,200,000",
+      "signing_bonus": "$3,300,000",
+      "per_game_bonus": "$510,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$190,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$16,200,000",
+          "dead_cap": "$23,200,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$16,900,000",
+          "dead_cap": "$6,600,000",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$6,600,000",
+          "dead_cap": "$6,600,000",
+          "status": "void ufa"
+        },
+        {
+          "year": 2029,
+          "cap_hit": "$3,300,000",
+          "dead_cap": "",
+          "status": "void"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.049235Z",
+      "enrich": {
+        "grade": "C",
+        "value": "+206% OVER",
+        "note": "Significantly overpaid for T4 depth role; massive dead cap constrains flexibility.",
+        "decision": {
+          "year": 2026,
+          "type": "restructure"
+        }
+      }
+    },
+    {
+      "name": "Armstrong\nDorance Armstrong",
+      "full_name": "Dorance Armstrong",
+      "last_name": "Armstrong",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/25217/dorance-armstrong",
+      "position": "ED",
+      "age": "29",
+      "cap_hit": "$12,055,000",
+      "cap_hit_pct": "4.00",
+      "dead_cap": "$9,000,000",
+      "base_salary": "$8,595,000",
+      "signing_bonus": "$3,000,000",
+      "per_game_bonus": "$210,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$250,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$12,055,000",
+          "dead_cap": "$9,000,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$6,000,000",
+          "dead_cap": "$6,000,000",
+          "status": "void ufa"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$3,000,000",
+          "dead_cap": "",
+          "status": "void"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.049693Z",
+      "enrich": {
+        "grade": "C",
+        "value": "+82% OVER",
+        "note": "Overpaid depth edge rusher with one year remaining and substantial dead cap.",
+        "decision": {
+          "year": 2026,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Tunsil\nLaremy Tunsil",
+      "full_name": "Laremy Tunsil",
+      "last_name": "Tunsil",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/18961/laremy-tunsil",
+      "position": "LT",
+      "age": "32",
+      "cap_hit": "$11,905,000",
+      "cap_hit_pct": "3.95",
+      "dead_cap": "$67,055,000",
+      "base_salary": "$1,495,000",
+      "signing_bonus": "$6,500,000",
+      "per_game_bonus": "$210,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$100,000",
+      "restructure_pro": "$3,600,000",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$11,905,000",
+          "dead_cap": "$67,055,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$17,200,000",
+          "dead_cap": "$55,460,000",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$42,200,000",
+          "dead_cap": "$38,700,000",
+          "status": "active"
+        },
+        {
+          "year": 2029,
+          "cap_hit": "$24,600,000",
+          "dead_cap": "$24,600,000",
+          "status": "void ufa"
+        },
+        {
+          "year": 2030,
+          "cap_hit": "",
+          "dead_cap": "",
+          "status": "void"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.050065Z",
+      "enrich": {
+        "grade": "B",
+        "value": "-20% UNDER",
+        "note": "Elite value relative to tier peers; aging LT entering decline window.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Chaisson\nK’Lavon Chaisson",
+      "full_name": "K’Lavon Chaisson",
+      "last_name": "Chaisson",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/47614/klavon-chaisson",
+      "position": "LB",
+      "age": "27",
+      "cap_hit": "$11,470,000",
+      "cap_hit_pct": "3.81",
+      "dead_cap": "$10,300,000",
+      "base_salary": "$3,300,000",
+      "signing_bonus": "$7,000,000",
+      "per_game_bonus": "$480,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$190,000",
+      "restructure_pro": "",
+      "incentives": "$500,000",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "3.81%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.050437Z",
+      "enrich": {
+        "grade": "D",
+        "value": "+945% OVER",
+        "note": "Severely overpaid depth linebacker on expiring deal with massive dead cap.",
+        "decision": {
+          "year": 2026,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Luvu\nFrankie Luvu",
+      "full_name": "Frankie Luvu",
+      "last_name": "Luvu",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/25901/frankie-luvu",
+      "position": "LB",
+      "age": "30",
+      "cap_hit": "$11,295,000",
+      "cap_hit_pct": "3.75",
+      "dead_cap": "$6,900,000",
+      "base_salary": "$7,555,000",
+      "signing_bonus": "$2,300,000",
+      "per_game_bonus": "$340,000",
+      "roster_bonus": "$1,000,000",
+      "option_bonus": "",
+      "workout_bonus": "$100,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$11,295,000",
+          "dead_cap": "$6,900,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$4,600,000",
+          "dead_cap": "$4,600,000",
+          "status": "void ufa"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$2,300,000",
+          "dead_cap": "",
+          "status": "void"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.050759Z",
+      "enrich": {
+        "grade": "C+",
+        "value": "+59% OVER",
+        "note": "Significantly overpaid for serviceable linebacker depth role.",
+        "decision": {
+          "year": 2026,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Daniels\nJayden Daniels",
+      "full_name": "Jayden Daniels",
+      "last_name": "Daniels",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90331/jayden-daniels",
+      "position": "QB",
+      "age": "26",
+      "cap_hit": "$10,294,541",
+      "cap_hit_pct": "3.42",
+      "dead_cap": "$22,304,839",
+      "base_salary": "$4,226,514",
+      "signing_bonus": "$6,068,027",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$10,294,541",
+          "dead_cap": "$22,304,839",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$12,010,298",
+          "dead_cap": "$12,010,298",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "",
+          "dead_cap": "",
+          "status": "club"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.051095Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-35% UNDER",
+        "note": "Exceptional value for a young franchise QB on rookie scale.",
+        "decision": {
+          "year": 2027,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "Oweh\nOdafe Oweh",
+      "full_name": "Odafe Oweh",
+      "last_name": "Oweh",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/72411/odafe-oweh",
+      "position": "LB",
+      "age": "28",
+      "cap_hit": "$9,200,000",
+      "cap_hit_pct": "3.05",
+      "dead_cap": "$50,600,000",
+      "base_salary": "$3,300,000",
+      "signing_bonus": "$5,200,000",
+      "per_game_bonus": "$510,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$190,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$9,200,000",
+          "dead_cap": "$50,600,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$27,200,000",
+          "dead_cap": "$42,100,000",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$27,200,000",
+          "dead_cap": "$15,600,000",
+          "status": "active"
+        },
+        {
+          "year": 2029,
+          "cap_hit": "$27,200,000",
+          "dead_cap": "$10,400,000",
+          "status": "active"
+        },
+        {
+          "year": 2030,
+          "cap_hit": "$5,200,000",
+          "dead_cap": "$5,200,000",
+          "status": "void ufa"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.051389Z",
+      "enrich": {
+        "grade": "D",
+        "value": "+100% OVER",
+        "note": "Severely overpaid depth linebacker with crippling dead cap burden.",
+        "decision": {
+          "year": 2027,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Mariota\nMarcus Mariota",
+      "full_name": "Marcus Mariota",
+      "last_name": "Mariota",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/16726/marcus-mariota",
+      "position": "QB",
+      "age": "33",
+      "cap_hit": "$7,340,000",
+      "cap_hit_pct": "2.44",
+      "dead_cap": "$6,390,000",
+      "base_salary": "$1,390,000",
+      "signing_bonus": "$5,000,000",
+      "per_game_bonus": "$450,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$100,000",
+      "restructure_pro": "",
+      "incentives": "$400,000",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "2.44%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.051715Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+10% OVER",
+        "note": "Backup QB slightly overpaid; minimal cross-position impact at T4 depth tier.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Bates\nJohn Bates",
+      "full_name": "John Bates",
+      "last_name": "Bates",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/72508/john-bates",
+      "position": "TE",
+      "age": "29",
+      "cap_hit": "$5,793,333",
+      "cap_hit_pct": "1.92",
+      "dead_cap": "$7,676,668",
+      "base_salary": "$3,010,000",
+      "signing_bonus": "$2,333,333",
+      "per_game_bonus": "$300,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$150,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.92%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "3.35%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.052064Z",
+      "enrich": {
+        "grade": "B-",
+        "value": "-23% UNDER",
+        "note": "Serviceable TE at tier-median pricing; depth role limits upside.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Okonkwo\nChig Okonkwo",
+      "full_name": "Chig Okonkwo",
+      "last_name": "Okonkwo",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/77020/chig-okonkwo",
+      "position": "TE",
+      "age": "27",
+      "cap_hit": "$5,333,333",
+      "cap_hit_pct": "1.77",
+      "dead_cap": "$16,700,000",
+      "base_salary": "$2,350,000",
+      "signing_bonus": "$2,333,333",
+      "per_game_bonus": "$510,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$140,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.77%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "3.20%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "3.19%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.052395Z",
+      "enrich": {
+        "grade": "C",
+        "value": "+385% OVER",
+        "note": "Depth TE severely overpaid; $16.7M dead cap creates extension trap.",
+        "decision": {
+          "year": 2027,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Cross\nNick Cross",
+      "full_name": "Nick Cross",
+      "last_name": "Cross",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/76972/nick-cross",
+      "position": "S",
+      "age": "25",
+      "cap_hit": "$5,250,000",
+      "cap_hit_pct": "1.74",
+      "dead_cap": "$6,050,000",
+      "base_salary": "$3,050,000",
+      "signing_bonus": "$1,500,000",
+      "per_game_bonus": "$510,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$190,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.74%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "2.40%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.052763Z",
+      "enrich": {
+        "grade": "C",
+        "value": "+377% OVER",
+        "note": "Significant overpay for depth safety; dead cap complicates roster flexibility.",
+        "decision": {
+          "year": 2027,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Robertson\nAmik Robertson",
+      "full_name": "Amik Robertson",
+      "last_name": "Robertson",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/47734/amik-robertson",
+      "position": "CB",
+      "age": "28",
+      "cap_hit": "$5,010,000",
+      "cap_hit_pct": "1.66",
+      "dead_cap": "$7,350,000",
+      "base_salary": "$1,350,000",
+      "signing_bonus": "$3,000,000",
+      "per_game_bonus": "$510,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$150,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.66%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "3.10%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.053039Z",
+      "enrich": {
+        "grade": "D",
+        "value": "+355% OVER",
+        "note": "Backup CB severely overpaid relative to T4 tier median; dead cap problematic.",
+        "decision": {
+          "year": 2027,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Harris\nWill Harris",
+      "full_name": "Will Harris",
+      "last_name": "Harris",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/29117/will-harris",
+      "position": "S",
+      "age": "31",
+      "cap_hit": "$4,760,000",
+      "cap_hit_pct": "1.58",
+      "dead_cap": "$1,500,000",
+      "base_salary": "$2,890,000",
+      "signing_bonus": "$1,000,000",
+      "per_game_bonus": "$270,000",
+      "roster_bonus": "$500,000",
+      "option_bonus": "",
+      "workout_bonus": "$100,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.58%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.053336Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+116% OVER",
+        "note": "Serviceable veteran safety well above tier median; approaching free agency window.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Chenal\nLeo Chenal",
+      "full_name": "Leo Chenal",
+      "last_name": "Chenal",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/76979/leo-chenal",
+      "position": "LB",
+      "age": "26",
+      "cap_hit": "$4,326,666",
+      "cap_hit_pct": "1.44",
+      "dead_cap": "$12,400,000",
+      "base_salary": "$1,600,000",
+      "signing_bonus": "$2,166,667",
+      "per_game_bonus": "$420,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$140,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.44%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "3.07%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "2.93%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.053685Z",
+      "enrich": {
+        "grade": "C",
+        "value": "+294% OVER",
+        "note": "Significantly overpaid for depth LB role; dead cap complicates exit.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Martin\nJartavius Martin",
+      "full_name": "Jartavius Martin",
+      "last_name": "Martin",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/82339/jartavius-martin",
+      "position": "S",
+      "age": "26",
+      "cap_hit": "$4,312,694",
+      "cap_hit_pct": "1.43",
+      "dead_cap": "$638,694",
+      "base_salary": "$3,674,000",
+      "signing_bonus": "$638,694",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.43%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.053980Z",
+      "enrich": {
+        "grade": "C",
+        "value": "+292% OVER",
+        "note": "Significantly overpaid for depth safety role; market median $1.1M.",
+        "decision": {
+          "year": 2026,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Omenihu\nCharles Omenihu",
+      "full_name": "Charles Omenihu",
+      "last_name": "Omenihu",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/29209/charles-omenihu",
+      "position": "ED",
+      "age": "29",
+      "cap_hit": "$4,000,000",
+      "cap_hit_pct": "1.33",
+      "dead_cap": "$3,300,000",
+      "base_salary": "$2,300,000",
+      "signing_bonus": "$1,000,000",
+      "per_game_bonus": "$510,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$190,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.33%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.054308Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+233% OVER",
+        "note": "Significantly overpaid relative to T4 depth peers; expiring deal limits restructure options.",
+        "decision": {
+          "year": 2026,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Settle\nTim Settle",
+      "full_name": "Tim Settle",
+      "last_name": "Settle",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/25264/tim-settle",
+      "position": "DL",
+      "age": "29",
+      "cap_hit": "$3,900,000",
+      "cap_hit_pct": "1.29",
+      "dead_cap": "$7,300,000",
+      "base_salary": "$1,300,000",
+      "signing_bonus": "$2,000,000",
+      "per_game_bonus": "$480,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$120,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.29%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "3.01%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "2.77%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.054716Z",
+      "enrich": {
+        "grade": "C+",
+        "value": "+255% OVER",
+        "note": "Severely overpaid depth DL; dead cap creates extension trap.",
+        "decision": {
+          "year": 2027,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Allegretti\nNick Allegretti",
+      "full_name": "Nick Allegretti",
+      "last_name": "Allegretti",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/29264/nick-allegretti",
+      "position": "G",
+      "age": "30",
+      "cap_hit": "$3,844,666",
+      "cap_hit_pct": "1.28",
+      "dead_cap": "$8,334,000",
+      "base_salary": "$1,500,000",
+      "signing_bonus": "$1,844,666",
+      "per_game_bonus": "$340,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$160,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$3,844,666",
+          "dead_cap": "$8,334,000",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$5,429,666",
+          "dead_cap": "$4,989,334",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$1,844,668",
+          "dead_cap": "$1,844,668",
+          "status": "void ufa"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.055066Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-56% UNDER",
+        "note": "Excellent value for serviceable guard; well below tier median despite 73rd percentile ranking.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Conerly Jr.\nJosh Conerly Jr.",
+      "full_name": "Josh Conerly Jr.",
+      "last_name": "Conerly Jr.",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/97825/josh-conerly-jr",
+      "position": "RT",
+      "age": "23",
+      "cap_hit": "$3,563,885",
+      "cap_hit_pct": "1.18",
+      "dead_cap": "$12,829,986",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "$2,011,108",
+      "per_game_bonus": "",
+      "roster_bonus": "$547,777",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$3,563,885",
+          "dead_cap": "$12,829,986",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$4,276,662",
+          "dead_cap": "$9,266,101",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$4,989,439",
+          "dead_cap": "$4,989,439",
+          "status": "active"
+        },
+        {
+          "year": 2029,
+          "cap_hit": "",
+          "dead_cap": "",
+          "status": "club"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.055414Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-67% UNDER",
+        "note": "Young prospect on rookie deal; excellent value for tier-4 depth starter.",
+        "decision": {
+          "year": 2029,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Reaves\nJeremy Reaves",
+      "full_name": "Jeremy Reaves",
+      "last_name": "Reaves",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/25572/jeremy-reaves",
+      "position": "S",
+      "age": "30",
+      "cap_hit": "$3,402,500",
+      "cap_hit_pct": "1.13",
+      "dead_cap": "$5,002,500",
+      "base_salary": "$1,300,000",
+      "signing_bonus": "$1,402,500",
+      "per_game_bonus": "$425,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$125,000",
+      "restructure_pro": "",
+      "incentives": "$150,000",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "$3,402,500",
+          "dead_cap": "$5,002,500",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "$3,195,000",
+          "dead_cap": "$2,300,000",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "$550,000",
+          "dead_cap": "$550,000",
+          "status": "void ufa"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.055776Z",
+      "enrich": {
+        "grade": "B",
+        "value": "-25% UNDER",
+        "note": "Well-priced depth safety; manageable dead cap; monitor 2027 decision.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Wylie\nAndrew Wylie",
+      "full_name": "Andrew Wylie",
+      "last_name": "Wylie",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/22571/andrew-wylie",
+      "position": "G",
+      "age": "32",
+      "cap_hit": "$3,200,000",
+      "cap_hit_pct": "1.06",
+      "dead_cap": "$2,200,000",
+      "base_salary": "$1,775,000",
+      "signing_bonus": "$750,000",
+      "per_game_bonus": "$425,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$250,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.06%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "1.33%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.056150Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-45% UNDER",
+        "note": "Elite value for depth guard; well below tier 3 peer median at $1.7M.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Paul\nChris Paul",
+      "full_name": "Chris Paul",
+      "last_name": "Paul",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/77107/chris-paul",
+      "position": "G",
+      "age": "28",
+      "cap_hit": "$3,000,000",
+      "cap_hit_pct": "1.00",
+      "dead_cap": "$2,475,000",
+      "base_salary": "$1,475,000",
+      "signing_bonus": "$1,000,000",
+      "per_game_bonus": "$425,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$100,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "1.00%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.056575Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-36% UNDER",
+        "note": "Elite value: $3M cap hit vs $4.7M tier median. Year 1 of deal.",
+        "decision": {
+          "year": 2027,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "Butler\nPercy Butler",
+      "full_name": "Percy Butler",
+      "last_name": "Butler",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/76990/percy-butler",
+      "position": "S",
+      "age": "26",
+      "cap_hit": "$2,800,000",
+      "cap_hit_pct": "0.93",
+      "dead_cap": "$675,000",
+      "base_salary": "$1,525,000",
+      "signing_bonus": "$675,000",
+      "per_game_bonus": "$400,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$200,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.93%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.056832Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+155% OVER",
+        "note": "Depth safety significantly overpaid relative to T4 peer median compensation.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Newton\nJohnny Newton",
+      "full_name": "Johnny Newton",
+      "last_name": "Newton",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90368/johnny-newton",
+      "position": "DL",
+      "age": "24",
+      "cap_hit": "$2,661,270",
+      "cap_hit_pct": "0.88",
+      "dead_cap": "$4,440,450",
+      "base_salary": "$1,682,090",
+      "signing_bonus": "$979,180",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.88%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.96%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.057128Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+142% OVER",
+        "note": "Young depth DL significantly overpaid relative to tier median peers.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Bellore\nNick Bellore",
+      "full_name": "Nick Bellore",
+      "last_name": "Bellore",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/8720/nick-bellore",
+      "position": "FB",
+      "age": "37",
+      "cap_hit": "$2,197,500",
+      "cap_hit_pct": "0.73",
+      "dead_cap": "$247,500",
+      "base_salary": "$1,500,000",
+      "signing_bonus": "$247,500",
+      "per_game_bonus": "$400,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$50,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.73%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.057429Z",
+      "enrich": {
+        "grade": "B-",
+        "value": "-12% UNDER",
+        "note": "Veteran fullback at reasonable cost for depth role; age limits upside.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Sainristil\nMike Sainristil",
+      "full_name": "Mike Sainristil",
+      "last_name": "Sainristil",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90382/mike-sainristil",
+      "position": "CB",
+      "age": "26",
+      "cap_hit": "$2,100,637",
+      "cap_hit_pct": "0.70",
+      "dead_cap": "$2,107,978",
+      "base_salary": "$1,495,212",
+      "signing_bonus": "$605,425",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.70%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.76%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.057751Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-43% UNDER",
+        "note": "Exceptional value for serviceable CB in year two of rookie deal.",
+        "decision": {
+          "year": 2028,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "White\nRachaad White",
+      "full_name": "Rachaad White",
+      "last_name": "White",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/76967/rachaad-white",
+      "position": "RB",
+      "age": "27",
+      "cap_hit": "$2,000,000",
+      "cap_hit_pct": "0.66",
+      "dead_cap": "$1,715,000",
+      "base_salary": "$1,315,000",
+      "signing_bonus": "$400,000",
+      "per_game_bonus": "$255,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$30,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.66%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.058087Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+82% OVER",
+        "note": "Backup RB significantly overpaid relative to tier-4 peer median.",
+        "decision": {
+          "year": 2026,
+          "type": "cut"
+        }
+      }
+    },
+    {
+      "name": "Burks\nTreylon Burks",
+      "full_name": "Treylon Burks",
+      "last_name": "Burks",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/76869/treylon-burks",
+      "position": "WR",
+      "age": "26",
+      "cap_hit": "$1,990,000",
+      "cap_hit_pct": "0.66",
+      "dead_cap": "$400,000",
+      "base_salary": "$1,215,000",
+      "signing_bonus": "$400,000",
+      "per_game_bonus": "$320,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$55,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.66%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.058403Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-46% UNDER",
+        "note": "Excellent value depth WR on rookie deal; minimal guaranteed exposure.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Sinnott\nBen Sinnott",
+      "full_name": "Ben Sinnott",
+      "last_name": "Sinnott",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90385/ben-sinnott",
+      "position": "TE",
+      "age": "24",
+      "cap_hit": "$1,971,259",
+      "cap_hit_pct": "0.65",
+      "dead_cap": "$1,640,962",
+      "base_salary": "$1,452,086",
+      "signing_bonus": "$519,173",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.65%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.71%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.058638Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-44% UNDER",
+        "note": "Exceptional value for depth TE; well below tier median at 24 years old.",
+        "decision": {
+          "year": 2028,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "Brown\nDyami Brown",
+      "full_name": "Dyami Brown",
+      "last_name": "Brown",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/72462/dyami-brown",
+      "position": "WR",
+      "age": "27",
+      "cap_hit": "$1,720,000",
+      "cap_hit_pct": "0.57",
+      "dead_cap": "$250,000",
+      "base_salary": "$1,215,000",
+      "signing_bonus": "$250,000",
+      "per_game_bonus": "$225,000",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$30,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.57%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.058921Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "+56% OVER",
+        "note": "Modest overpay for depth role, but manageable low-cost contract.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Moody\nJake Moody",
+      "full_name": "Jake Moody",
+      "last_name": "Moody",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/82391/jake-moody",
+      "position": "K",
+      "age": "27",
+      "cap_hit": "$1,700,000",
+      "cap_hit_pct": "0.56",
+      "dead_cap": "",
+      "base_salary": "$1,250,000",
+      "signing_bonus": "$125,000",
+      "per_game_bonus": "",
+      "roster_bonus": "$75,000",
+      "option_bonus": "",
+      "workout_bonus": "$50,000",
+      "restructure_pro": "",
+      "incentives": "$200,000",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.56%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.059191Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+3% OVER",
+        "note": "Slightly above tier median; solid depth option at fair market rate.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Amos\nTrey Amos",
+      "full_name": "Trey Amos",
+      "last_name": "Amos",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/97860/trey-amos",
+      "position": "CB",
+      "age": "24",
+      "cap_hit": "$1,654,550",
+      "cap_hit_pct": "0.55",
+      "dead_cap": "$3,245,085",
+      "base_salary": "$1,170,910",
+      "signing_bonus": "$483,640",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.55%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.61%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "0.65%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.059506Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-55% UNDER",
+        "note": "Excellent value for depth CB on rookie deal; significant cap efficiency.",
+        "decision": {
+          "year": 2028,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Coleman\nBrandon Coleman",
+      "full_name": "Brandon Coleman",
+      "last_name": "Coleman",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90399/brandon-coleman",
+      "position": "G",
+      "age": "26",
+      "cap_hit": "$1,652,243",
+      "cap_hit_pct": "0.55",
+      "dead_cap": "$612,990",
+      "base_salary": "$1,305,748",
+      "signing_bonus": "$306,495",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$40,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.55%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.60%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.059834Z",
+      "enrich": {
+        "grade": "B",
+        "value": "-3% UNDER",
+        "note": "Serviceable depth guard at fair market value within tier three peer range.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "McCaffrey\nLuke McCaffrey",
+      "full_name": "Luke McCaffrey",
+      "last_name": "McCaffrey",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90432/luke-mccaffrey",
+      "position": "WR",
+      "age": "25",
+      "cap_hit": "$1,526,267",
+      "cap_hit_pct": "0.51",
+      "dead_cap": "$445,022",
+      "base_salary": "$1,263,756",
+      "signing_bonus": "$222,511",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$40,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.51%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.55%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.060190Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-39% UNDER",
+        "note": "Exceptional value for depth WR; well below tier 4 median at $1.1M.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Ott\nTyler Ott",
+      "full_name": "Tyler Ott",
+      "last_name": "Ott",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/15010/tyler-ott",
+      "position": "LS",
+      "age": "34",
+      "cap_hit": "$1,508,334",
+      "cap_hit_pct": "0.50",
+      "dead_cap": "$133,334",
+      "base_salary": "$1,300,000",
+      "signing_bonus": "$133,334",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$75,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.50%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.060540Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+16% OVER",
+        "note": "Above-median LS cost; age 34 limits extension window significantly.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Way\nTress Way",
+      "full_name": "Tress Way",
+      "last_name": "Way",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/12696/tress-way",
+      "position": "P",
+      "age": "36",
+      "cap_hit": "$1,487,500",
+      "cap_hit_pct": "0.49",
+      "dead_cap": "$3,012,500",
+      "base_salary": "$2,850,000",
+      "signing_bonus": "$162,500",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$25,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.49%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.060862Z",
+      "enrich": {
+        "grade": "B",
+        "value": "0% FAIR",
+        "note": "36-year-old punter at exact positional median; declining athleticism risk.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Wise\nDeatrich Wise",
+      "full_name": "Deatrich Wise",
+      "last_name": "Wise",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/21873/deatrich-wise",
+      "position": "ED",
+      "age": "32",
+      "cap_hit": "$1,450,000",
+      "cap_hit_pct": "0.48",
+      "dead_cap": "$75,000",
+      "base_salary": "$1,300,000",
+      "signing_bonus": "$75,000",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$75,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.48%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.061180Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-19% UNDER",
+        "note": "Excellent value for depth edge rusher on veteran minimum salary.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "McNichols\nJeremy McNichols",
+      "full_name": "Jeremy McNichols",
+      "last_name": "McNichols",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/21904/jeremy-mcnichols",
+      "position": "RB",
+      "age": "31",
+      "cap_hit": "$1,262,500",
+      "cap_hit_pct": "0.42",
+      "dead_cap": "$562,500",
+      "base_salary": "$1,300,000",
+      "signing_bonus": "$162,500",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.42%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.061520Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+5% OVER",
+        "note": "Slightly above tier median for backup RB depth role; manageable contract.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Scott\nTrenton Scott",
+      "full_name": "Trenton Scott",
+      "last_name": "Scott",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/25422/trenton-scott",
+      "position": "RT",
+      "age": "32",
+      "cap_hit": "$1,262,500",
+      "cap_hit_pct": "0.42",
+      "dead_cap": "$100,000",
+      "base_salary": "$1,300,000",
+      "signing_bonus": "$100,000",
+      "per_game_bonus": "$87,500",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.42%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.061776Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "+5% OVER",
+        "note": "Veteran depth RT at fair market value for tier-4 peers.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Ford\nJerome Ford",
+      "full_name": "Jerome Ford",
+      "last_name": "Ford",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/77033/jerome-ford",
+      "position": "RB",
+      "age": "27",
+      "cap_hit": "$1,262,500",
+      "cap_hit_pct": "0.42",
+      "dead_cap": "$437,500",
+      "base_salary": "$1,215,000",
+      "signing_bonus": "$137,500",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$50,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.42%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.062066Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "+5% OVER",
+        "note": "Slightly above tier median but excellent value for depth RB role.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Jefferson\nVan Jefferson",
+      "full_name": "Van Jefferson",
+      "last_name": "Jefferson",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/47652/van-jefferson",
+      "position": "WR",
+      "age": "30",
+      "cap_hit": "$1,262,500",
+      "cap_hit_pct": "0.42",
+      "dead_cap": "$527,500",
+      "base_salary": "$1,215,000",
+      "signing_bonus": "$127,500",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$60,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.42%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.062339Z",
+      "enrich": {
+        "grade": "B",
+        "value": "+15% OVER",
+        "note": "Depth WR at tier median; minimal guaranteed money limits upside risk.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Lane\nJaylin Lane",
+      "full_name": "Jaylin Lane",
+      "last_name": "Lane",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/97929/jaylin-lane",
+      "position": "WR",
+      "age": "24",
+      "cap_hit": "$1,233,463",
+      "cap_hit_pct": "0.41",
+      "dead_cap": "$685,389",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "$228,463",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.41%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.42%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "0.41%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.062642Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-11% UNDER",
+        "note": "Young depth WR at excellent value; three years remaining provides roster flexibility.",
+        "decision": {
+          "year": 2029,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Jackson\nDrake Jackson",
+      "full_name": "Drake Jackson",
+      "last_name": "Jackson",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/76937/drake-jackson",
+      "position": "ED",
+      "age": "25",
+      "cap_hit": "$1,222,500",
+      "cap_hit_pct": "0.41",
+      "dead_cap": "$500,000",
+      "base_salary": "$1,215,000",
+      "signing_bonus": "$100,000",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$47,500",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.41%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.062934Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-2% UNDER",
+        "note": "Excellent value for depth edge rusher on rookie contract year.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Tuttle\nShy Tuttle",
+      "full_name": "Shy Tuttle",
+      "last_name": "Tuttle",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/29626/shy-tuttle",
+      "position": "DL",
+      "age": "31",
+      "cap_hit": "$1,175,000",
+      "cap_hit_pct": "0.39",
+      "dead_cap": "$50,000",
+      "base_salary": "$1,300,000",
+      "signing_bonus": "$50,000",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "$50,000",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.39%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.063234Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-7% UNDER",
+        "note": "Well-priced depth defender; minimal dead cap risk.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Magee\nJordan Magee",
+      "full_name": "Jordan Magee",
+      "last_name": "Magee",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90472/jordan-magee",
+      "position": "LB",
+      "age": "25",
+      "cap_hit": "$1,167,807",
+      "cap_hit_pct": "0.39",
+      "dead_cap": "$185,614",
+      "base_salary": "$1,075,000",
+      "signing_bonus": "$92,807",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.39%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.40%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.063575Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-10% UNDER",
+        "note": "Excellent value for depth linebacker; well below tier median.",
+        "decision": {
+          "year": 2028,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Cager\nLawrence Cager",
+      "full_name": "Lawrence Cager",
+      "last_name": "Cager",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/47885/lawrence-cager",
+      "position": "WR",
+      "age": "29",
+      "cap_hit": "$1,145,000",
+      "cap_hit_pct": "0.38",
+      "dead_cap": "",
+      "base_salary": "$1,145,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.38%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.063901Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "0% FAIR",
+        "note": "Tier 4 WR at exact peer median; excellent value for depth role.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Carter II\nAndre Carter II",
+      "full_name": "Andre Carter II",
+      "last_name": "Carter II",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/82721/andre-carter-ii",
+      "position": "ED",
+      "age": "26",
+      "cap_hit": "$1,145,000",
+      "cap_hit_pct": "0.38",
+      "dead_cap": "",
+      "base_salary": "$1,145,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.38%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.064261Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-4% UNDER",
+        "note": "Excellent value for depth edge rusher on rookie deal.",
+        "decision": {
+          "year": 2027,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "Johnson\nD.J. Johnson",
+      "full_name": "D.J. Johnson",
+      "last_name": "Johnson",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/82372/dj-johnson",
+      "position": "LB",
+      "age": "28",
+      "cap_hit": "$1,145,000",
+      "cap_hit_pct": "0.38",
+      "dead_cap": "",
+      "base_salary": "$1,145,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.38%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.064557Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-12% UNDER",
+        "note": "Excellent value depth LB on veteran minimum contract.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Medrano\nKain Medrano",
+      "full_name": "Kain Medrano",
+      "last_name": "Medrano",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98006/kain-medrano",
+      "position": "LB",
+      "age": "25",
+      "cap_hit": "$1,057,086",
+      "cap_hit_pct": "0.35",
+      "dead_cap": "$156,258",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "$52,086",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.35%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.064899Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-4% UNDER",
+        "note": "Excellent depth value; well below tier-4 peer median at minimal cap cost.",
+        "decision": {
+          "year": 2029,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Jean-Baptiste\nJavontae Jean-Baptiste",
+      "full_name": "Javontae Jean-Baptiste",
+      "last_name": "Jean-Baptiste",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90556/javontae-jean-baptiste",
+      "position": "ED",
+      "age": "26",
+      "cap_hit": "$1,105,297",
+      "cap_hit_pct": "0.37",
+      "dead_cap": "$60,594",
+      "base_salary": "$1,075,000",
+      "signing_bonus": "$30,297",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.37%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.38%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.065194Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-8% UNDER",
+        "note": "Excellent value depth edge rusher on team-friendly deal.",
+        "decision": {
+          "year": 2028,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Croskey-Merritt\nJacory Croskey-Merritt",
+      "full_name": "Jacory Croskey-Merritt",
+      "last_name": "Croskey-Merritt",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98046/jacory-croskey-merritt",
+      "position": "RB",
+      "age": "25",
+      "cap_hit": "$1,031,357",
+      "cap_hit_pct": "0.34",
+      "dead_cap": "$79,071",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "$26,357",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.34%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.35%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2028,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.065550Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-59% UNDER",
+        "note": "Elite value for serviceable depth back; well below tier median.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Owens\nTyler Owens",
+      "full_name": "Tyler Owens",
+      "last_name": "Owens",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90599/tyler-owens",
+      "position": "S",
+      "age": "25",
+      "cap_hit": "$1,081,667",
+      "cap_hit_pct": "0.36",
+      "dead_cap": "$6,667",
+      "base_salary": "$1,075,000",
+      "signing_bonus": "$6,667",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.065899Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-2% UNDER",
+        "note": "Efficient depth safety contract slightly below tier median.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Yankoff\nColson Yankoff",
+      "full_name": "Colson Yankoff",
+      "last_name": "Yankoff",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90604/colson-yankoff",
+      "position": "TE",
+      "age": "26",
+      "cap_hit": "$1,078,334",
+      "cap_hit_pct": "0.36",
+      "dead_cap": "$3,334",
+      "base_salary": "$1,075,000",
+      "signing_bonus": "$3,334",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.066283Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-2% UNDER",
+        "note": "Excellent value depth TE on minimal cap commitment, one year remaining.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Kaho\nAle Kaho",
+      "full_name": "Ale Kaho",
+      "last_name": "Kaho",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98350/ale-kaho",
+      "position": "LB",
+      "age": "26",
+      "cap_hit": "$1,008,333",
+      "cap_hit_pct": "0.33",
+      "dead_cap": "$6,667",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "$3,333",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.33%",
+          "dead_cap": "",
+          "status": "active"
+        },
+        {
+          "year": 2027,
+          "cap_hit": "0.35%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.066692Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-8% UNDER",
+        "note": "Excellent value for depth LB well below tier median.",
+        "decision": {
+          "year": 2028,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Aumavae-Laulu\nMalaesala Aumavae-Laulu",
+      "full_name": "Malaesala Aumavae-Laulu",
+      "last_name": "Aumavae-Laulu",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/82503/malaesala-aumavae-laulu",
+      "position": "G",
+      "age": "27",
+      "cap_hit": "$1,075,000",
+      "cap_hit_pct": "0.36",
+      "dead_cap": "",
+      "base_salary": "$1,075,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.067035Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-2% UNDER",
+        "note": "Excellent depth value; well-positioned for 2026 renegotiation.",
+        "decision": {
+          "year": 2026,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "Hawkins III\nTre Hawkins III",
+      "full_name": "Tre Hawkins III",
+      "last_name": "Hawkins III",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/82513/tre-hawkins-iii",
+      "position": "CB",
+      "age": "27",
+      "cap_hit": "$1,075,000",
+      "cap_hit_pct": "0.36",
+      "dead_cap": "",
+      "base_salary": "$1,075,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.067397Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-2% UNDER",
+        "note": "Efficient depth CB contract well below tier median; strong roster value.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Rush\nDarius Rush",
+      "full_name": "Darius Rush",
+      "last_name": "Rush",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/82442/darius-rush",
+      "position": "CB",
+      "age": "26",
+      "cap_hit": "$1,075,000",
+      "cap_hit_pct": "0.36",
+      "dead_cap": "",
+      "base_salary": "$1,075,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.36%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.067771Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-2% UNDER",
+        "note": "Cost-efficient depth CB on expiring deal; minimal cap impact.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Good-Jones\nJulian Good-Jones",
+      "full_name": "Julian Good-Jones",
+      "last_name": "Good-Jones",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/48053/julian-good-jones",
+      "position": "G",
+      "age": "29",
+      "cap_hit": "$1,005,000",
+      "cap_hit_pct": "0.33",
+      "dead_cap": "",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.33%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.068070Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-8% UNDER",
+        "note": "Well-priced depth guard on expiring deal; solid backup value.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Hartman\nSam Hartman",
+      "full_name": "Sam Hartman",
+      "last_name": "Hartman",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/90595/sam-hartman",
+      "position": "QB",
+      "age": "27",
+      "cap_hit": "$1,005,000",
+      "cap_hit_pct": "0.33",
+      "dead_cap": "",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.33%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.068375Z",
+      "enrich": {
+        "grade": "A",
+        "value": "-28% UNDER",
+        "note": "Exceptional value for capable backup QB on minimal cap commitment.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Knight\nQwuantrezz Knight",
+      "full_name": "Qwuantrezz Knight",
+      "last_name": "Knight",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/77305/qwuantrezz-knight",
+      "position": "CB",
+      "age": "29",
+      "cap_hit": "$1,005,000",
+      "cap_hit_pct": "0.33",
+      "dead_cap": "",
+      "base_salary": "$1,005,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.33%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.068715Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "-8% UNDER",
+        "note": "Well-priced depth CB on minimal contract below tier median.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Barber\nRicky Barber",
+      "full_name": "Ricky Barber",
+      "last_name": "Barber",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98184/ricky-barber",
+      "position": "DL",
+      "age": "25",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.069056Z",
+      "enrich": {
+        "grade": "A",
+        "value": "-19% UNDER",
+        "note": "Excellent value for depth role; well below tier median.",
+        "decision": {
+          "year": 2027,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "Brooks\nJa’Corey Brooks",
+      "full_name": "Ja’Corey Brooks",
+      "last_name": "Brooks",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98392/jacorey-brooks",
+      "position": "WR",
+      "age": "25",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.069359Z",
+      "enrich": {
+        "grade": "A",
+        "value": "-20% UNDER",
+        "note": "Elite value depth WR on minimal cap commitment; rare market efficiency.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Cooper\nTyler Cooper",
+      "full_name": "Tyler Cooper",
+      "last_name": "Cooper",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98318/tyler-cooper",
+      "position": "G",
+      "age": "25",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.069664Z",
+      "enrich": {
+        "grade": "A",
+        "value": "-19% UNDER",
+        "note": "Exceptional value for depth guard; minimal cap commitment with upside.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Jones\nJacoby Jones",
+      "full_name": "Jacoby Jones",
+      "last_name": "Jones",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98393/jacoby-jones",
+      "position": "WR",
+      "age": "25",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.070010Z",
+      "enrich": {
+        "grade": "A",
+        "value": "0% FAIR",
+        "note": "Excellent value for depth WR at tier-appropriate minimum salary.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Maguranyanga\nT.J. Maguranyanga",
+      "full_name": "T.J. Maguranyanga",
+      "last_name": "Maguranyanga",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/97634/tj-maguranyanga",
+      "position": "LB",
+      "age": "24",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.070259Z",
+      "enrich": {
+        "grade": "A+",
+        "value": "-19% UNDER",
+        "note": "Exceptional value for depth linebacker on rookie contract.",
+        "decision": {
+          "year": 2027,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "McDaniel\nRob McDaniel",
+      "full_name": "Rob McDaniel",
+      "last_name": "McDaniel",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98268/rob-mcdaniel",
+      "position": "CB",
+      "age": "26",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.070598Z",
+      "enrich": {
+        "grade": "A",
+        "value": "-19% UNDER",
+        "note": "Exceptional value for depth CB; minimal cap commitment with upside.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "McKay\nTim McKay",
+      "full_name": "Tim McKay",
+      "last_name": "McKay",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98182/tim-mckay",
+      "position": "G",
+      "age": "24",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.070886Z",
+      "enrich": {
+        "grade": "A",
+        "value": "-19% UNDER",
+        "note": "Exceptional value for depth guard; minimal cap commitment with upside.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Nash\nNick Nash",
+      "full_name": "Nick Nash",
+      "last_name": "Nash",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98241/nick-nash",
+      "position": "WR",
+      "age": "26",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.071248Z",
+      "enrich": {
+        "grade": "A-",
+        "value": "0% FAIR",
+        "note": "Minimum-salary depth WR at tier median; excellent cap efficiency for roster flexibility.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Vigers\nCar'lin Vigers",
+      "full_name": "Car'lin Vigers",
+      "last_name": "Vigers",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/98185/carlin-vigers",
+      "position": "CB",
+      "age": "26",
+      "cap_hit": "$885,000",
+      "cap_hit_pct": "0.29",
+      "dead_cap": "",
+      "base_salary": "$885,000",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "0.29%",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.071581Z",
+      "enrich": {
+        "grade": "A+",
+        "value": "-19% UNDER",
+        "note": "Elite value backup CB well below tier 4 median; minimal cap commitment.",
+        "decision": {
+          "year": 2027,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Davidson\nD.J. Davidson",
+      "full_name": "D.J. Davidson",
+      "last_name": "Davidson",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/77024/dj-davidson",
+      "position": "ED",
+      "age": "27",
+      "cap_hit": "",
+      "cap_hit_pct": "-",
+      "dead_cap": "",
+      "base_salary": "",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.071908Z",
+      "enrich": {
+        "grade": "A+",
+        "value": "-100% UNDER",
+        "note": "Minimal cap hit for depth edge rusher; exceptional value on expiring deal.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    },
+    {
+      "name": "Sarell\nFoster Sarell",
+      "full_name": "Foster Sarell",
+      "last_name": "Sarell",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/72757/foster-sarell",
+      "position": "LT",
+      "age": "28",
+      "cap_hit": "",
+      "cap_hit_pct": "-",
+      "dead_cap": "",
+      "base_salary": "",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.072166Z",
+      "enrich": {
+        "grade": "A",
+        "value": "-75% UNDER",
+        "note": "Exceptional value depth starter well below tier 4 median.",
+        "decision": {
+          "year": 2026,
+          "type": "extend"
+        }
+      }
+    },
+    {
+      "name": "Witherspoon\nAhkello Witherspoon",
+      "full_name": "Ahkello Witherspoon",
+      "last_name": "Witherspoon",
+      "player_url": "https://www.spotrac.com/nfl/player/_/id/21808/ahkello-witherspoon",
+      "position": "CB",
+      "age": "31",
+      "cap_hit": "",
+      "cap_hit_pct": "-",
+      "dead_cap": "",
+      "base_salary": "",
+      "signing_bonus": "",
+      "per_game_bonus": "",
+      "roster_bonus": "",
+      "option_bonus": "",
+      "workout_bonus": "",
+      "restructure_pro": "",
+      "incentives": "",
+      "roster_status": "active",
+      "cap_schedule": [
+        {
+          "year": 2026,
+          "cap_hit": "",
+          "dead_cap": "",
+          "status": "active"
+        }
+      ],
+      "scraped_at": "2026-04-08T10:04:54.072485Z",
+      "enrich": {
+        "grade": "A+",
+        "value": "-100% UNDER",
+        "note": "Veteran depth corner at minimum salary; exceptional value for experience.",
+        "decision": {
+          "year": 2026,
+          "type": "monitor"
+        }
+      }
+    }
+  ],
+  "released": [
+    {
+      "name": "Samuel\nDeebo Samuel\nVOIDED",
+      "full_name": "Deebo Samuel",
+      "last_name": "Samuel",
+      "position": "WR",
+      "age": "",
+      "cap_hit": "$12,344,420",
+      "cap_hit_pct": "4.10",
+      "dead_cap": "",
+      "roster_status": "voided",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.073209Z"
+    },
+    {
+      "name": "Biadasz\nTyler Biadasz\nRELEASED",
+      "full_name": "Tyler Biadasz",
+      "last_name": "Biadasz",
+      "position": "C",
+      "age": "",
+      "cap_hit": "$8,100,000",
+      "cap_hit_pct": "2.69",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.073455Z"
+    },
+    {
+      "name": "Hampton\nDominique Hampton\nRELEASED",
+      "full_name": "Dominique Hampton",
+      "last_name": "Hampton",
+      "position": "S",
+      "age": "",
+      "cap_hit": "$156,642",
+      "cap_hit_pct": "0.05",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.073643Z"
+    },
+    {
+      "name": "McDaniel\nRob McDaniel\nRELEASED",
+      "full_name": "Rob McDaniel",
+      "last_name": "McDaniel",
+      "position": "CB",
+      "age": "",
+      "cap_hit": "$20,000",
+      "cap_hit_pct": "0.01",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.073917Z"
+    },
+    {
+      "name": "McKay\nTim McKay\nRELEASED",
+      "full_name": "Tim McKay",
+      "last_name": "McKay",
+      "position": "G",
+      "age": "",
+      "cap_hit": "$16,667",
+      "cap_hit_pct": "0.01",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.074140Z"
+    },
+    {
+      "name": "Vigers\nCar'lin Vigers\nRELEASED",
+      "full_name": "Car'lin Vigers",
+      "last_name": "Vigers",
+      "position": "CB",
+      "age": "",
+      "cap_hit": "$16,667",
+      "cap_hit_pct": "0.01",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.074428Z"
+    },
+    {
+      "name": "Barber\nRicky Barber\nRELEASED",
+      "full_name": "Ricky Barber",
+      "last_name": "Barber",
+      "position": "DT",
+      "age": "",
+      "cap_hit": "$10,000",
+      "cap_hit_pct": "0.00",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.074686Z"
+    },
+    {
+      "name": "Arnold\nKam Arnold\nRELEASED",
+      "full_name": "Kam Arnold",
+      "last_name": "Arnold",
+      "position": "LB",
+      "age": "",
+      "cap_hit": "$6,667",
+      "cap_hit_pct": "0.00",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.074954Z"
+    },
+    {
+      "name": "Brooks\nJa’Corey Brooks\nRELEASED",
+      "full_name": "Ja’Corey Brooks",
+      "last_name": "Brooks",
+      "position": "WR",
+      "age": "",
+      "cap_hit": "$6,667",
+      "cap_hit_pct": "0.00",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.075155Z"
+    },
+    {
+      "name": "Cypress\nFentrell Cypress\nRELEASED",
+      "full_name": "Fentrell Cypress",
+      "last_name": "Cypress",
+      "position": "CB",
+      "age": "",
+      "cap_hit": "$6,667",
+      "cap_hit_pct": "0.00",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.075425Z"
+    },
+    {
+      "name": "Jones\nJacoby Jones\nRELEASED",
+      "full_name": "Jacoby Jones",
+      "last_name": "Jones",
+      "position": "WR",
+      "age": "",
+      "cap_hit": "$6,667",
+      "cap_hit_pct": "0.00",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.075684Z"
+    },
+    {
+      "name": "Pollard\nNorell Pollard\nRELEASED",
+      "full_name": "Norell Pollard",
+      "last_name": "Pollard",
+      "position": "DE",
+      "age": "",
+      "cap_hit": "$1,667",
+      "cap_hit_pct": "0.00",
+      "dead_cap": "",
+      "roster_status": "released",
+      "cap_schedule": [],
+      "scraped_at": "2026-04-08T10:04:54.075928Z"
+    }
+  ]
+}
