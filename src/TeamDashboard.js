@@ -339,7 +339,11 @@ Market delta: ${player.mktDelta > 0 ? '+' : ''}${player.mktDelta ?? 0}% vs posit
 Contract grade: ${player.grade}
 Scout note: ${player.note}`;
 
-    fetch('/api/anthropic/v1/messages', {
+    const apiUrl = process.env.NODE_ENV === 'production'
+      ? '/api/claude'
+      : '/api/anthropic/v1/messages';
+
+    fetch(apiUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
