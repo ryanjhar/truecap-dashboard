@@ -303,11 +303,12 @@ const PanelSection = ({ title, children, accent }) => (
 
 const SIGNAL_COLORS = { green: GREEN, yellow: AMBER, red: RED };
 
-function ContractPanel({ player, onClose, teamName, teamCode, capCeiling, teamPrimary }) {
+function ContractPanel({ player, onClose, teamName, teamCode, capCeiling, teamPrimary, badgeColor }) {
   const [intel,   setIntel]   = useState(null);
   const [loading, setLoading] = useState(false);
   const [error,   setError]   = useState(null);
-  const primary = teamPrimary || MUTED;
+  const primary   = teamPrimary || MUTED;
+  const posBadge  = badgeColor  || primary;
 
   useEffect(() => {
     if (!player) return;
@@ -399,7 +400,7 @@ Scout note: ${player.note}`;
                   {player.fullName}
                 </h2>
                 <div style={{ display: 'flex', gap: 8, marginTop: 7, alignItems: 'center', flexWrap: 'wrap' }}>
-                  <PosBadge pos={player.position} teamPrimary={primary} />
+                  <PosBadge pos={player.position} teamPrimary={posBadge} />
                   {player.age && <span style={{ color: 'var(--text-3)', fontSize: 11 }}>Age {player.age}</span>}
                   <span style={{ color: 'var(--border-2)' }}>·</span>
                   <span style={{ color: 'var(--text-3)', fontSize: 11 }}>{player.yrs} yr{player.yrs !== 1 ? 's' : ''} remaining</span>
@@ -693,6 +694,9 @@ export default function TeamDashboard() {
 
   const primary  = team.primary;
   const accent   = team.accent || team.secondary;
+  // Teams whose primary is too dark/saturated for readable badge text — use secondary instead
+  const USE_SECONDARY_BADGE = new Set(['CHI', 'HOU', 'GB', 'NE', 'SEA', 'TEN', 'WAS']);
+  const badgeColor = USE_SECONDARY_BADGE.has(teamCode) ? (team.secondary || primary) : primary;
   const barPalette = BAR_PALETTE(primary);
   const tabs     = [['overview','Overview'],['roster','Roster'],['contracts','Contracts'],['deadcap','Dead Cap']];
 
@@ -914,7 +918,7 @@ export default function TeamDashboard() {
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ borderBottom: '1px solid var(--border-2)' }}>
-                    {['#','Player','Pos','Age','Cap Hit','% Cap','Yrs','Grade','vs Mkt','Decision','Scout Note'].map((h) => (
+                    {['#','Player','Pos','Age','Cap Hit','% Cap','Yrs','Dead Cap','Grade','vs Mkt','Decision','Scout Note'].map((h) => (
                       <th key={h} style={{
                         padding: '7px 10px', fontFamily: 'var(--font-data)',
                         color: 'var(--text-3)', fontSize: 9,
@@ -946,7 +950,7 @@ export default function TeamDashboard() {
                           )}
                         </div>
                       </td>
-                      <td style={{ padding: '9px 10px' }}><PosBadge pos={p.position} teamPrimary={primary} /></td>
+                      <td style={{ padding: '9px 10px' }}><PosBadge pos={p.position} teamPrimary={badgeColor} /></td>
                       <td style={{ padding: '9px 10px', fontFamily: 'var(--font-data)', color: 'var(--text-2)', fontSize: 12 }}>{p.age || '—'}</td>
                       <td style={{ padding: '9px 10px', fontFamily: 'var(--font-data)', fontWeight: 600, fontSize: 12, color: p.capHit > 0 ? 'var(--text-1)' : 'var(--text-4)' }}>
                         {p.capHit > 0 ? fmt(p.capHit) : '—'}
@@ -956,6 +960,9 @@ export default function TeamDashboard() {
                       </td>
                       <td style={{ padding: '9px 10px', fontFamily: 'var(--font-data)', fontSize: 12, fontWeight: 600, color: p.yrs === 1 ? AMBER : p.yrs >= 3 ? GREEN : 'var(--text-1)' }}>
                         {p.yrs}yr
+                      </td>
+                      <td style={{ padding: '9px 10px', fontFamily: 'var(--font-data)', fontSize: 12, color: p.dead > 0 ? RED : 'var(--text-4)' }}>
+                        {p.dead > 0 ? fmt(p.dead) : '—'}
                       </td>
                       <td style={{ padding: '9px 10px' }}><GradeBadge grade={p.grade} /></td>
                       <td style={{ padding: '9px 10px' }}><ValueBadge delta={p.mktDelta} /></td>
@@ -987,7 +994,7 @@ export default function TeamDashboard() {
                           <div style={{ flex: 1, minWidth: 0 }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 3 }}>
                               <span style={{ fontWeight: 700, fontSize: 13 }}>{p.fullName}</span>
-                              <PosBadge pos={p.position} teamPrimary={primary} />
+                              <PosBadge pos={p.position} teamPrimary={badgeColor} />
                               <GradeBadge grade={p.grade} />
                             </div>
                             <p style={{ margin: 0, fontSize: 11, color: 'var(--text-3)', fontWeight: 400 }}>{p.note}</p>
@@ -1197,6 +1204,7 @@ export default function TeamDashboard() {
         teamCode={teamCode}
         capCeiling={CAP_CEILING}
         teamPrimary={primary}
+        badgeColor={badgeColor}
       />
     </div>
   );
