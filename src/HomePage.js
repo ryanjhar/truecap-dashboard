@@ -215,14 +215,14 @@ export default function HomePage() {
               Most Constrained
             </span>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
-              <span style={{ fontSize: 11, color: '#666' }}>
-                {leastCap.name}
+              <span style={{ fontFamily: 'var(--font-data)', fontSize: 18, fontWeight: 700, color: 'var(--red)', letterSpacing: '-0.4px' }}>
+                {fmtM(leastCap.capSpace)}
               </span>
               <span style={{ fontFamily: 'var(--font-data)', fontSize: 11, color: '#999', fontWeight: 600 }}>
                 {leastCap.code}
               </span>
-              <span style={{ fontFamily: 'var(--font-data)', fontSize: 18, fontWeight: 700, color: 'var(--red)', letterSpacing: '-0.4px' }}>
-                {fmtM(leastCap.capSpace)}
+              <span style={{ fontSize: 11, color: '#666' }}>
+                {leastCap.name}
               </span>
             </div>
           </div>
