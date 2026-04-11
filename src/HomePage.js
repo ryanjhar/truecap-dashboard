@@ -146,7 +146,7 @@ export default function HomePage() {
     <div style={{ fontFamily: 'var(--font-ui)', background: 'var(--bg)', minHeight: '100vh' }}>
 
       {/* ── header ── */}
-      <header style={{ background: 'var(--surface)', borderBottom: '1px solid var(--border)', padding: '18px 32px' }}>
+      <header className="tc-page-header" style={{ background: 'var(--surface)', borderBottom: '1px solid var(--border)', padding: '18px 32px' }}>
         <div style={{ maxWidth: 1440, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div>
             <div style={{ fontSize: 22, fontWeight: 700, letterSpacing: '-0.8px', color: 'var(--text-1)', lineHeight: 1, marginBottom: 5 }}>
@@ -169,7 +169,7 @@ export default function HomePage() {
 
       {/* ── stat banner ── */}
       <section style={{ borderBottom: '1px solid var(--border)', background: 'var(--surface)' }}>
-        <div style={{ maxWidth: 1440, margin: '0 auto', padding: '0 32px', display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', height: 80 }}>
+        <div className="tc-stat-banner" style={{ maxWidth: 1440, margin: '0 auto', padding: '0 32px', display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', height: 80 }}>
 
           {/* most flexible */}
           <div
@@ -231,7 +231,7 @@ export default function HomePage() {
       </section>
 
       {/* ── team grid ── */}
-      <main style={{ padding: '28px 32px 80px', maxWidth: 1440, margin: '0 auto' }}>
+      <main className="tc-page-main" style={{ padding: '28px 32px 80px', maxWidth: 1440, margin: '0 auto' }}>
         {['AFC', 'NFC'].map((conf) => (
           <div key={conf} style={{ marginBottom: 44 }}>
 
@@ -246,7 +246,7 @@ export default function HomePage() {
               <div style={{ flex: 1, height: 1, background: 'var(--border)' }} />
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20 }}>
+            <div className="tc-team-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20 }}>
               {DIVISIONS.filter((d) => d.startsWith(conf)).map((division) => (
                 <div key={division}>
                   <div style={{

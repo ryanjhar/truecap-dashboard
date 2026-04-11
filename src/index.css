@@ -71,3 +71,57 @@ code { font-family: var(--font-data); }
   background: var(--green); animation: tc-pulse-dot 2.2s ease-in-out infinite;
   vertical-align: middle;
 }
+
+/* ── mobile responsive ─────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* homepage header + main padding */
+  .tc-page-header  { padding: 14px 16px !important; }
+  .tc-page-main    { padding: 20px 16px 60px !important; }
+
+  /* homepage stat banner: 3-col → stacked */
+  .tc-stat-banner {
+    grid-template-columns: 1fr !important;
+    height: auto !important;
+    padding: 14px 16px !important;
+    gap: 0 !important;
+  }
+  .tc-stat-banner > div {
+    padding: 14px 0 !important;
+    height: auto !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+  .tc-stat-banner > div:not(:first-child) {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: 1px solid var(--border-2) !important;
+    justify-content: flex-start !important;
+  }
+
+  /* homepage team grid: 4-col → 2-col */
+  .tc-team-grid { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* dashboard header + main padding */
+  .tc-header-inner { padding: 10px 16px !important; }
+  .tc-main-content { padding: 16px 16px 0 !important; }
+
+  /* dashboard stat cards: 4-col → 2x2 */
+  .tc-stat-cards { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* dashboard chart grids: side-by-side → stacked */
+  .tc-chart-grid { grid-template-columns: 1fr !important; }
+
+  /* hide team selector dropdown in header */
+  .tc-team-selector { display: none !important; }
+
+  /* roster table: horizontal scroll */
+  .tc-roster-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .tc-roster-scroll table { min-width: 720px; }
+  .tc-roster-scroll::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: linear-gradient(90deg, var(--border-2), transparent);
+    margin-top: 4px;
+  }
+}

@@ -708,7 +708,7 @@ export default function TeamDashboard() {
         {/* team primary stripe */}
         <div style={{ height: 3, background: `linear-gradient(90deg, ${primary}, ${accent}88, transparent)` }} />
 
-        <div style={{ padding: '14px 36px', display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
+        <div className="tc-header-inner" style={{ padding: '14px 36px', display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
           {/* back */}
           <button
             onClick={() => navigate('/')}
@@ -741,6 +741,7 @@ export default function TeamDashboard() {
 
           {/* team selector */}
           <select
+            className="tc-team-selector"
             value={teamCode}
             onChange={(e) => navigate(`/team/${e.target.value}`)}
             style={{
@@ -761,10 +762,10 @@ export default function TeamDashboard() {
       </header>
 
       {/* ── main content ── */}
-      <div style={{ padding: '24px 36px 0', maxWidth: 1440, margin: '0 auto' }}>
+      <div className="tc-main-content" style={{ padding: '24px 36px 0', maxWidth: 1440, margin: '0 auto' }}>
 
         {/* stat cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12, marginBottom: 16 }}>
+        <div className="tc-stat-cards" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12, marginBottom: 16 }}>
           <StatCard index={0} label="Cap Used (Top-51)"    value={fmt(traj2026)}               sub={'of ' + fmt(adj2026Cap) + ' adjusted ceiling'} accent={primary} />
           <StatCard index={1} label="Cap Space"            value={fmt(capSpaceOfficial || adj2026Cap - traj2026)} sub="Top-51 remaining" accent={GREEN} />
           <StatCard index={2} label="Active Contracts"     value={ACTIVE.length}               sub={cutCandidates.length + ' cut candidates'} accent={AMBER} />
@@ -825,7 +826,7 @@ export default function TeamDashboard() {
               </div>
             );
             return (
-              <div style={{ display: 'grid', gridTemplateColumns: '3fr 2fr', gap: 14 }}>
+              <div className="tc-chart-grid" style={{ display: 'grid', gridTemplateColumns: '3fr 2fr', gap: 14 }}>
                 <div style={{ background: 'var(--surface)', borderRadius: 10, padding: '20px 20px 12px', border: '1px solid var(--border)' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 4 }}>
                     <div>
@@ -909,6 +910,7 @@ export default function TeamDashboard() {
                   {rosterRows.length} players · click any row for contract intelligence
                 </span>
               </div>
+              <div className="tc-roster-scroll">
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <thead>
                   <tr style={{ borderBottom: '1px solid var(--border-2)' }}>
@@ -963,12 +965,13 @@ export default function TeamDashboard() {
                   ))}
                 </tbody>
               </table>
+              </div>
             </div>
           )}
 
           {/* ── CONTRACTS ── */}
           {tab === 'contracts' && (
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
+            <div className="tc-chart-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
               {/* cut candidates */}
               <div style={{ background: 'var(--surface)', borderRadius: 10, padding: '20px', border: '1px solid var(--border)' }}>
                 <h3 style={{ margin: '0 0 3px', fontSize: 13, fontWeight: 600, letterSpacing: '-0.2px' }}>Cut Candidates</h3>
@@ -1077,7 +1080,7 @@ export default function TeamDashboard() {
                 <p style={{ margin: '0 0 16px', fontSize: 11, color: 'var(--text-3)', fontWeight: 400 }}>
                   How well is each group paid relative to market?
                 </p>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 10 }}>
+                <div className="tc-stat-cards" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 10 }}>
                   {GROUP_ORDER.filter((g) => ACTIVE.some((p) => p.group === g)).map((g) => {
                     const players = ACTIVE.filter((p) => p.group === g);
                     const grades  = { A: 0, B: 0, C: 0, D: 0 };
@@ -1110,7 +1113,7 @@ export default function TeamDashboard() {
 
           {/* ── DEAD CAP ── */}
           {tab === 'deadcap' && (
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
+            <div className="tc-chart-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
               <div style={{ background: 'var(--surface)', borderRadius: 10, padding: '20px', border: '1px solid var(--border)' }}>
                 <h3 style={{ margin: '0 0 3px', fontSize: 13, fontWeight: 600, letterSpacing: '-0.2px' }}>Top 5 Dead Cap Risks</h3>
                 <p style={{ color: 'var(--text-3)', fontSize: 11, margin: '0 0 22px', fontWeight: 400 }}>
