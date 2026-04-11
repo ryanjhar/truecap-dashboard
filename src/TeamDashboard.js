@@ -205,7 +205,7 @@ const CapTrajectory = ({ trajectory, teamPrimary }) => {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 2 }}>
         <div>
           <h3 style={{ margin: 0, fontSize: 13, fontWeight: 600, color: 'var(--text-1)', letterSpacing: '-0.2px' }}>
-            Cap Trajectory · 2026–2028
+            Cap Trajectory · 2026–28
           </h3>
           <p style={{ margin: '4px 0 0', fontSize: 11, color: 'var(--text-3)', fontWeight: 400 }}>
             Committed cap vs ceiling · 2026 official Top-51 · 2027–28 from contract schedules
@@ -773,8 +773,8 @@ export default function TeamDashboard() {
         </div>
 
         {/* adjusted cap footnote */}
-        <p style={{ fontFamily: 'var(--font-data)', color: 'var(--text-4)', fontSize: 10, margin: '-4px 0 14px', textAlign: 'right', letterSpacing: '0.2px' }}>
-          Adjusted {fmt(adj2026Cap)} = {fmt(CAP_CEILING)} base + {fmt(parseSummaryDollars('2025 Rollover Cap'))} rollover + {fmt(parseSummaryDollars('Adjustment'))} other
+        <p style={{ fontFamily: 'var(--font-data)', color: 'var(--text-4)', fontSize: 10, margin: '-4px 0 14px', textAlign: 'right', letterSpacing: '0.2px', wordBreak: 'break-word' }}>
+          Adjusted cap {fmt(adj2026Cap)} includes {fmt(parseSummaryDollars('2025 Rollover Cap'))} rollover + {fmt(parseSummaryDollars('Adjustment'))} other
         </p>
 
         {/* trajectory */}
