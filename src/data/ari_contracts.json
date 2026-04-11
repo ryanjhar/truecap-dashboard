@@ -50,9 +50,9 @@
       "enrich": {
         "grade": "B",
         "value": "+29% OVER",
-        "note": "Elite safety but overpaid versus T1 peer median; age 30 adds risk.",
+        "note": "Elite safety commanding tier-1 premium; age 30 limits extension value.",
         "decision": {
-          "year": 2027,
+          "year": 2026,
           "type": "restructure"
         }
       }
@@ -104,12 +104,12 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.258005Z",
       "enrich": {
-        "grade": "C+",
+        "grade": "C-",
         "value": "+309% OVER",
-        "note": "Elite cap hit for T4 depth role; massive dead cap anchor limits flexibility.",
+        "note": "Elite cap hit for depth/backup edge; massive overpay relative to tier peers.",
         "decision": {
           "year": 2026,
-          "type": "restructure"
+          "type": "cut"
         }
       }
     },
@@ -156,10 +156,10 @@
       "enrich": {
         "grade": "A-",
         "value": "-30% UNDER",
-        "note": "Elite young talent on rookie deal; significant upside before reset.",
+        "note": "Young elite talent locked at discount relative to tier-2 peer median.",
         "decision": {
-          "year": 2027,
-          "type": "extend"
+          "year": 2029,
+          "type": "monitor"
         }
       }
     },
@@ -192,9 +192,9 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.258602Z",
       "enrich": {
-        "grade": "C",
-        "value": "+75% OVER",
-        "note": "Tier 3 LB earning top-tier money; T4 impact limits upside.",
+        "grade": "C+",
+        "value": "+348% OVER",
+        "note": "Elite cap hit for depth linebacker; significant overpay vs tier peers.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -231,8 +231,8 @@
       "scraped_at": "2026-04-08T09:00:07.258901Z",
       "enrich": {
         "grade": "B",
-        "value": "+26% OVER",
-        "note": "Serviceable backup QB above tier median; minimal guaranteed money limits downside.",
+        "value": "+19% OVER",
+        "note": "Serviceable backup QB at tier median; expiring contract limits flexibility.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -274,12 +274,12 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.259192Z",
       "enrich": {
-        "grade": "B",
-        "value": "-10% UNDER",
-        "note": "Serviceable LT at fair value within T2 peer group; two years cost-controlled.",
+        "grade": "A-",
+        "value": "-14% UNDER",
+        "note": "Rookie deal bargain for capable T2 starter entering year three.",
         "decision": {
-          "year": 2028,
-          "type": "monitor"
+          "year": 2027,
+          "type": "extend"
         }
       }
     },
@@ -331,10 +331,10 @@
       "scraped_at": "2026-04-08T09:00:07.259573Z",
       "enrich": {
         "grade": "B+",
-        "value": "-13% UNDER",
-        "note": "Elite tier TE at reasonable cap cost relative to peer median.",
+        "value": "-11% UNDER",
+        "note": "Elite TE at fair tier pricing; strong value within T1 peer range.",
         "decision": {
-          "year": 2028,
+          "year": 2029,
           "type": "monitor"
         }
       }
@@ -370,7 +370,7 @@
       "enrich": {
         "grade": "C+",
         "value": "+61% OVER",
-        "note": "Serviceable starter paid significantly above Tier 2 peer median.",
+        "note": "Serviceable starter significantly overpaid relative to tier 2 peer median.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -419,8 +419,8 @@
       "scraped_at": "2026-04-08T09:00:07.260279Z",
       "enrich": {
         "grade": "C",
-        "value": "+520% OVER",
-        "note": "Severely overpaid depth guard; massive dead cap liability limits flexibility.",
+        "value": "+524% OVER",
+        "note": "Veteran guard severely overpaid for depth role at age 33.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -457,8 +457,8 @@
       "scraped_at": "2026-04-08T09:00:07.260580Z",
       "enrich": {
         "grade": "C+",
-        "value": "+404% OVER",
-        "note": "Significantly overpaid for depth edge rusher role; minimal cross-position impact.",
+        "value": "+450% OVER",
+        "note": "Depth ED earning 5.5× tier median; significant overpay for role.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -496,7 +496,7 @@
       "enrich": {
         "grade": "B",
         "value": "+306% OVER",
-        "note": "Backup QB significantly overpaid relative to T4 peer median.",
+        "note": "Backup QB significantly overpaid relative to tier-4 peer median.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -533,8 +533,8 @@
       "scraped_at": "2026-04-08T09:00:07.261181Z",
       "enrich": {
         "grade": "A-",
-        "value": "-30% UNDER",
-        "note": "Exceptional value: elite QB on bargain contract entering final year.",
+        "value": "-33% UNDER",
+        "note": "Elite value on final year of deal; excellent cap efficiency for serviceable starter.",
         "decision": {
           "year": 2026,
           "type": "extend"
@@ -570,9 +570,9 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.261504Z",
       "enrich": {
-        "grade": "B-",
-        "value": "+93% OVER",
-        "note": "Veteran backup RB at near-starter cost. Age 31, declining role.",
+        "grade": "C+",
+        "value": "+101% OVER",
+        "note": "Aging backup RB earning double peer median; dead cap limits 2026 flexibility.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -616,7 +616,7 @@
       "enrich": {
         "grade": "C+",
         "value": "+334% OVER",
-        "note": "31-year-old depth WR significantly overpaid relative to tier-4 peer median.",
+        "note": "Aging depth receiver at 31; cap hit vastly exceeds T4 peer median.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -653,8 +653,8 @@
       "scraped_at": "2026-04-08T09:00:07.262103Z",
       "enrich": {
         "grade": "B",
-        "value": "-33% UNDER",
-        "note": "Serviceable starter well below Tier 2 peer median; excellent value.",
+        "value": "-34% UNDER",
+        "note": "Serviceable starter well below tier-2 peer median; cost-effective depth option.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -691,8 +691,8 @@
       "scraped_at": "2026-04-08T09:00:07.262359Z",
       "enrich": {
         "grade": "C",
-        "value": "+308% OVER",
-        "note": "Significantly overpaid for depth cornerback role; substantial dead cap limits flexibility.",
+        "value": "+309% OVER",
+        "note": "Veteran backup CB significantly overpaid relative to tier-4 peers.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -747,10 +747,10 @@
       "scraped_at": "2026-04-08T09:00:07.262600Z",
       "enrich": {
         "grade": "C+",
-        "value": "+301% OVER",
-        "note": "Tier 4 depth player earning well above peer median; significant dead cap risk.",
+        "value": "+300% OVER",
+        "note": "Rookie contract inflated by guaranteed money; significant depth role risk.",
         "decision": {
-          "year": 2027,
+          "year": 2028,
           "type": "monitor"
         }
       }
@@ -792,10 +792,10 @@
       "enrich": {
         "grade": "C+",
         "value": "+299% OVER",
-        "note": "Backup DL paid like mid-tier starter; significant overpay vs tier peers.",
+        "note": "Significantly overpaid for depth role; dead cap limits flexibility.",
         "decision": {
-          "year": 2026,
-          "type": "restructure"
+          "year": 2027,
+          "type": "cut"
         }
       }
     },
@@ -836,9 +836,9 @@
       "enrich": {
         "grade": "C",
         "value": "+295% OVER",
-        "note": "Backup RB severely overpaid relative to tier 4 depth peers and market median.",
+        "note": "Depth RB paid like mid-tier starter; dead cap locks Cardinals into uncomfortable position.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "cut"
         }
       }
@@ -874,9 +874,9 @@
       "enrich": {
         "grade": "A-",
         "value": "-44% UNDER",
-        "note": "Excellent value for Tier 2 starter; significant discount vs peer median.",
+        "note": "Elite value for Tier 2 starter; significant upside at current cap hit.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "extend"
         }
       }
@@ -910,11 +910,11 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.264031Z",
       "enrich": {
-        "grade": "A-",
+        "grade": "B",
         "value": "-5% UNDER",
-        "note": "Efficient depth cornerback on rookie deal; well-positioned cap value.",
+        "note": "Serviceable depth CB at fair tier-median value; minimal cross-position impact.",
         "decision": {
-          "year": 2027,
+          "year": 2026,
           "type": "monitor"
         }
       }
@@ -961,8 +961,8 @@
       "scraped_at": "2026-04-08T09:00:07.264308Z",
       "enrich": {
         "grade": "B",
-        "value": "+215% OVER",
-        "note": "Significant overpay for depth role; dead cap complicates 2027 decision.",
+        "value": "+244% OVER",
+        "note": "Young depth ED significantly overpaid relative to tier-4 peer median.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -1004,12 +1004,12 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.264559Z",
       "enrich": {
-        "grade": "C+",
+        "grade": "C",
         "value": "+239% OVER",
-        "note": "Depth LB significantly overpaid; $4M dead cap creates exit barrier.",
+        "note": "Significantly overpaid for depth linebacker role; dead cap complicates exit.",
         "decision": {
           "year": 2027,
-          "type": "monitor"
+          "type": "cut"
         }
       }
     },
@@ -1042,9 +1042,9 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.264863Z",
       "enrich": {
-        "grade": "B",
-        "value": "+209% OVER",
-        "note": "Stills significantly overpaid for depth role; minimal cross-position impact justifies cut consideration.",
+        "grade": "C+",
+        "value": "+237% OVER",
+        "note": "Significantly overpaid for depth role; minimal cross-position impact justifies downgrade.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -1081,8 +1081,8 @@
       "scraped_at": "2026-04-08T09:00:07.265209Z",
       "enrich": {
         "grade": "C+",
-        "value": "+234% OVER",
-        "note": "Depth TE paid as mid-tier starter; significant overpay for role.",
+        "value": "+233% OVER",
+        "note": "Depth TE significantly overpaid relative to tier-4 peer median.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -1118,9 +1118,9 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.265509Z",
       "enrich": {
-        "grade": "B-",
-        "value": "+171% OVER",
-        "note": "Backup safety significantly overpaid relative to tier-4 peers.",
+        "grade": "B",
+        "value": "+172% OVER",
+        "note": "Significantly overpaid for depth safety role; dead cap liability limits flexibility.",
         "decision": {
           "year": 2026,
           "type": "cut"
@@ -1164,10 +1164,10 @@
       "enrich": {
         "grade": "B",
         "value": "+159% OVER",
-        "note": "Backup guard at starter rates; significant dead cap creates extension difficulty.",
+        "note": "Depth guard significantly overpaid relative to T4 peer median; dead cap complicates exit.",
         "decision": {
           "year": 2027,
-          "type": "monitor"
+          "type": "cut"
         }
       }
     },
@@ -1201,11 +1201,11 @@
       "scraped_at": "2026-04-08T09:00:07.266195Z",
       "enrich": {
         "grade": "A-",
-        "value": "-56% UNDER",
-        "note": "Elite depth value: well below T4 peer median at $1.2M.",
+        "value": "+149% OVER",
+        "note": "Paid like a starter; production doesn't justify tier-4 depth role.",
         "decision": {
-          "year": 2027,
-          "type": "extend"
+          "year": 2026,
+          "type": "monitor"
         }
       }
     },
@@ -1239,8 +1239,8 @@
       "scraped_at": "2026-04-08T09:00:07.266519Z",
       "enrich": {
         "grade": "A-",
-        "value": "+127% OVER",
-        "note": "Veteran depth DL earning well above Tier 4 median; minimal guaranteed money.",
+        "value": "-127% UNDER",
+        "note": "Veteran depth DL significantly undervalued relative to tier-4 peer median.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -1283,8 +1283,8 @@
       "scraped_at": "2026-04-08T09:00:07.266803Z",
       "enrich": {
         "grade": "A-",
-        "value": "-56% UNDER",
-        "note": "Elite value: young Tier 2 starter well below peer median at $2.4M.",
+        "value": "-54% UNDER",
+        "note": "Excellent value for Tier 2 starter; well below peer median.",
         "decision": {
           "year": 2027,
           "type": "extend"
@@ -1321,10 +1321,10 @@
       "scraped_at": "2026-04-08T09:00:07.267150Z",
       "enrich": {
         "grade": "A-",
-        "value": "-54% UNDER",
-        "note": "Elite value depth WR well below tier-4 peer median; minimal dead cap.",
+        "value": "-114% UNDER",
+        "note": "Exceptional value for depth WR; well below tier 4 peer median.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -1371,10 +1371,10 @@
       "scraped_at": "2026-04-08T09:00:07.267454Z",
       "enrich": {
         "grade": "A-",
-        "value": "-61% UNDER",
-        "note": "Exceptional value for Tier 2 starter; well below peer median.",
+        "value": "-60% UNDER",
+        "note": "Elite rookie contract value; 23-year-old Tier 2 starter well below peer median.",
         "decision": {
-          "year": 2027,
+          "year": 2028,
           "type": "extend"
         }
       }
@@ -1410,9 +1410,9 @@
       "enrich": {
         "grade": "B",
         "value": "+32% OVER",
-        "note": "Above tier median; solid consistency warrants retention at current cost.",
+        "note": "Above tier median but reasonable for reliable starter production.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -1448,9 +1448,9 @@
       "enrich": {
         "grade": "B",
         "value": "+62% OVER",
-        "note": "Depth safety earning well above tier median; minimal guaranteed money limits downside.",
+        "note": "Backup safety earning well above T4 peer median; limited cross-position impact.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -1486,7 +1486,7 @@
       "enrich": {
         "grade": "A-",
         "value": "+58% OVER",
-        "note": "Veteran depth DL on expiring deal; minimal dead cap risk management.",
+        "note": "Veteran depth at fair market rate; minimal guaranteed money limits risk.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -1524,7 +1524,7 @@
       "enrich": {
         "grade": "B",
         "value": "+15% OVER",
-        "note": "Solid backup punter at tier-median pricing; minimal dead cap exposure.",
+        "note": "Slightly above median for depth punter; solid value at tier level.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -1568,9 +1568,9 @@
       "enrich": {
         "grade": "A-",
         "value": "+50% OVER",
-        "note": "Young depth RB on rookie deal; cap-efficient but limited immediate role.",
+        "note": "Young depth back on rookie deal; excellent value for positional tier.",
         "decision": {
-          "year": 2027,
+          "year": 2028,
           "type": "monitor"
         }
       }
@@ -1612,7 +1612,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-65% UNDER",
-        "note": "Excellent value for Tier 2 starter; well below peer median.",
+        "note": "Excellent value for Tier 2 starter; significant discount vs peer median.",
         "decision": {
           "year": 2027,
           "type": "extend"
@@ -1655,8 +1655,8 @@
       "scraped_at": "2026-04-08T09:00:07.269557Z",
       "enrich": {
         "grade": "A-",
-        "value": "-30% UNDER",
-        "note": "Excellent value for depth TE; well below tier median on rookie deal.",
+        "value": "+43% OVER",
+        "note": "Young depth TE on reasonable deal; upside potential at modest cap cost.",
         "decision": {
           "year": 2028,
           "type": "monitor"
@@ -1698,9 +1698,9 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.269881Z",
       "enrich": {
-        "grade": "A-",
+        "grade": "B",
         "value": "+41% OVER",
-        "note": "Solid depth CB on team-friendly deal well below tier median.",
+        "note": "Depth CB earning above tier-4 peer median; minimal guaranteed money.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -1736,11 +1736,11 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.270249Z",
       "enrich": {
-        "grade": "B",
+        "grade": "A-",
         "value": "+34% OVER",
-        "note": "Depth CB slightly overpaid relative to tier-4 peer median.",
+        "note": "Depth CB earning above tier median; minimal guaranteed money limits downside risk.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -1787,10 +1787,10 @@
       "scraped_at": "2026-04-08T09:00:07.270593Z",
       "enrich": {
         "grade": "A-",
-        "value": "-18% UNDER",
-        "note": "Excellent value depth edge rusher on rookie deal with three years remaining.",
+        "value": "-26% UNDER",
+        "note": "Excellent value depth edge rusher well below tier 4 median salary.",
         "decision": {
-          "year": 2029,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -1825,8 +1825,8 @@
       "scraped_at": "2026-04-08T09:00:07.270962Z",
       "enrich": {
         "grade": "A-",
-        "value": "0% FAIR",
-        "note": "Excellent value depth guard on minimal cap commitment.",
+        "value": "+21% OVER",
+        "note": "Slightly above tier median; solid depth guard on manageable deal.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -1868,11 +1868,11 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.271303Z",
       "enrich": {
-        "grade": "B",
-        "value": "-20% UNDER",
-        "note": "Strong value for serviceable depth; well below tier-3 peer median at $1.6M.",
+        "grade": "A-",
+        "value": "-14% UNDER",
+        "note": "Excellent value for depth safety on rookie deal. Two years remaining, minimal dead cap.",
         "decision": {
-          "year": 2027,
+          "year": 2028,
           "type": "monitor"
         }
       }
@@ -1908,7 +1908,7 @@
       "enrich": {
         "grade": "B",
         "value": "-3% UNDER",
-        "note": "Veteran LS at fair market value; age risk rising with one year remaining.",
+        "note": "Veteran long snapper at fair market value; age 36 limits future runway.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -1946,7 +1946,7 @@
       "enrich": {
         "grade": "A-",
         "value": "+15% OVER",
-        "note": "Veteran depth guard at fair market rate for tier positioning.",
+        "note": "Veteran depth G at fair market; minimal dead cap risk next year.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -1983,8 +1983,8 @@
       "scraped_at": "2026-04-08T09:00:07.272171Z",
       "enrich": {
         "grade": "A-",
-        "value": "0% FAIR",
-        "note": "Efficient depth WR at tier median; minimal cap commitment fits role.",
+        "value": "15% UNDER",
+        "note": "Excellent depth value; minimal cap commitment for reserve WR production.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -2021,10 +2021,10 @@
       "scraped_at": "2026-04-08T09:00:07.272497Z",
       "enrich": {
         "grade": "A-",
-        "value": "-5% UNDER",
-        "note": "Excellent depth value; minimal cap commitment with manageable dead cap.",
+        "value": "+5% OVER",
+        "note": "Depth LT at fair tier value; minimal cap commitment with manageable guarantees.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -2060,10 +2060,10 @@
       "enrich": {
         "grade": "A-",
         "value": "-82% UNDER",
-        "note": "Elite value for Tier 2 starter; well below peer median cap hit.",
+        "note": "Exceptional value: elite starter salary at veteran minimum cost.",
         "decision": {
           "year": 2026,
-          "type": "monitor"
+          "type": "extend"
         }
       }
     },
@@ -2108,9 +2108,9 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.273176Z",
       "enrich": {
-        "grade": "A-",
-        "value": "-45% UNDER",
-        "note": "Exceptional value for depth LB; well below peer median at minimal cap cost.",
+        "grade": "B",
+        "value": "-40% UNDER",
+        "note": "Depth linebacker well below tier-3 peer median; excellent cost control.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -2148,9 +2148,9 @@
       "enrich": {
         "grade": "A-",
         "value": "-7% UNDER",
-        "note": "Excellent value for depth defensive lineman on minimum salary.",
+        "note": "Excellent value for depth DL at near-minimum cost with one year remaining.",
         "decision": {
-          "year": 2027,
+          "year": 2026,
           "type": "monitor"
         }
       }
@@ -2196,12 +2196,12 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.273829Z",
       "enrich": {
-        "grade": "B-",
+        "grade": "A-",
         "value": "-28% UNDER",
-        "note": "Excellent value on serviceable cornerback; well below tier median.",
+        "note": "Elite value on rookie deal. Well below Tier 3 peer median at $1.5M.",
         "decision": {
           "year": 2027,
-          "type": "monitor"
+          "type": "extend"
         }
       }
     },
@@ -2241,10 +2241,10 @@
       "scraped_at": "2026-04-08T09:00:07.274190Z",
       "enrich": {
         "grade": "A-",
-        "value": "+26% OVER",
-        "note": "Depth tackle earning above peer median; solid depth investment for Arizona.",
+        "value": "-26% UNDER",
+        "note": "Elite value for depth tackle; significant discount versus tier median.",
         "decision": {
-          "year": 2028,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -2280,7 +2280,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-7% UNDER",
-        "note": "Excellent value depth LB on minimal cap commitment.",
+        "note": "Efficient depth LB contract well below tier 4 median; excellent value.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -2317,8 +2317,8 @@
       "scraped_at": "2026-04-08T09:00:07.274812Z",
       "enrich": {
         "grade": "A-",
-        "value": "-8% UNDER",
-        "note": "Well-priced depth CB on rookie deal; minimal dead cap exposure.",
+        "value": "-9% UNDER",
+        "note": "Well-priced depth CB slightly below tier-4 median; excellent value.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -2368,9 +2368,9 @@
       "enrich": {
         "grade": "A-",
         "value": "-5% UNDER",
-        "note": "Excellent value for depth guard on rookie contract below tier median.",
+        "note": "Excellent value for depth guard; well below tier-4 median salary.",
         "decision": {
-          "year": 2029,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -2418,9 +2418,9 @@
       "enrich": {
         "grade": "A-",
         "value": "-6% UNDER",
-        "note": "Excellent value for depth safety; well below tier 4 median at youth premium.",
+        "note": "Young depth safety well-positioned on rookie deal with minimal dead cap.",
         "decision": {
-          "year": 2028,
+          "year": 2029,
           "type": "monitor"
         }
       }
@@ -2455,8 +2455,8 @@
       "scraped_at": "2026-04-08T09:00:07.275740Z",
       "enrich": {
         "grade": "A-",
-        "value": "0% FAIR",
-        "note": "Tier 4 RB at exact peer median; excellent depth value on 1-year deal.",
+        "value": "-3% UNDER",
+        "note": "Excellent value for depth RB on minimal cap commitment.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -2492,12 +2492,12 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.276022Z",
       "enrich": {
-        "grade": "B",
+        "grade": "A-",
         "value": "-15% UNDER",
-        "note": "Efficient depth TE contract well below tier-4 median baseline.",
+        "note": "Excellent depth value on rookie deal; well below tier-4 peer median.",
         "decision": {
           "year": 2027,
-          "type": "monitor"
+          "type": "extend"
         }
       }
     },
@@ -2536,11 +2536,11 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.276396Z",
       "enrich": {
-        "grade": "A-",
+        "grade": "A",
         "value": "-18% UNDER",
-        "note": "Elite value depth guard on minimal cap commitment with two years control.",
+        "note": "Exceptional value for depth guard; well below tier median on minimal commitment.",
         "decision": {
-          "year": 2028,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -2582,9 +2582,9 @@
       "enrich": {
         "grade": "A-",
         "value": "-27% UNDER",
-        "note": "Excellent value for serviceable RT depth on rookie deal.",
+        "note": "Excellent value for serviceable RT; well below peer median at bargain cost.",
         "decision": {
-          "year": 2028,
+          "year": 2027,
           "type": "extend"
         }
       }
@@ -2620,9 +2620,9 @@
       "enrich": {
         "grade": "A-",
         "value": "-1% UNDER",
-        "note": "Excellent value for depth WR; minimal dead cap provides flexibility.",
+        "note": "Excellent value for depth WR; minimal cap footprint with one year remaining.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -2658,7 +2658,7 @@
       "enrich": {
         "grade": "A-",
         "value": "0% FAIR",
-        "note": "Depth WR at tier median; minimal cap commitment with one year remaining.",
+        "note": "Market-rate depth WR on minimal, efficient contract.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -2696,7 +2696,7 @@
       "enrich": {
         "grade": "A-",
         "value": "0% FAIR",
-        "note": "Elite value for depth WR; minimal cap burden at tier median.",
+        "note": "Excellent value for depth WR on minimal cap commitment.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -2734,7 +2734,7 @@
       "enrich": {
         "grade": "A-",
         "value": "+4% OVER",
-        "note": "Solid depth linebacker on reasonable contract; minimal dead cap risk.",
+        "note": "Excellent value for depth LB; minimal cap hit within tier range.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -2771,8 +2771,8 @@
       "scraped_at": "2026-04-08T09:00:07.278432Z",
       "enrich": {
         "grade": "A-",
-        "value": "0% FAIR",
-        "note": "Minimum salary depth WR; excellent value on expiring deal.",
+        "value": "-2% UNDER",
+        "note": "Excellent value for depth WR; minimal cap commitment with flexibility.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -2808,11 +2808,11 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.278730Z",
       "enrich": {
-        "grade": "A-",
+        "grade": "A",
         "value": "-11% UNDER",
-        "note": "Excellent value depth piece well below tier median for backup left tackle.",
+        "note": "Excellent value depth LT on minimal cap hit with one year remaining.",
         "decision": {
-          "year": 2027,
+          "year": 2026,
           "type": "monitor"
         }
       }
@@ -2848,7 +2848,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-23% UNDER",
-        "note": "Excellent value for young kicker on rookie deal; well below tier median.",
+        "note": "Young kicker signed well below tier median; excellent depth value.",
         "decision": {
           "year": 2027,
           "type": "extend"
@@ -2886,7 +2886,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-2% UNDER",
-        "note": "Excellent depth value well below tier median; minimal financial commitment.",
+        "note": "Excellent value depth contract; well-positioned for 2026 roster flexibility.",
         "decision": {
           "year": 2026,
           "type": "monitor"
@@ -2924,10 +2924,10 @@
       "enrich": {
         "grade": "A-",
         "value": "-8% UNDER",
-        "note": "Excellent value depth cornerback on rookie deal below tier median.",
+        "note": "Excellent value depth CB on minimal cap commitment with year of control remaining.",
         "decision": {
           "year": 2027,
-          "type": "extend"
+          "type": "monitor"
         }
       }
     },
@@ -2962,7 +2962,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-8% UNDER",
-        "note": "Young depth TE on excellent value contract well below tier median.",
+        "note": "Young depth TE on favorable deal; significant upside potential remains.",
         "decision": {
           "year": 2027,
           "type": "extend"
@@ -3012,7 +3012,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-8% UNDER",
-        "note": "Excellent depth value well below tier-4 peer median baseline.",
+        "note": "Excellent value for depth linebacker on rookie deal.",
         "decision": {
           "year": 2029,
           "type": "monitor"
@@ -3050,7 +3050,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-8% UNDER",
-        "note": "Excellent value for depth RB; minimal cap commitment with upside.",
+        "note": "Excellent value for depth RB on minimal cap commitment; 1 year remains.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -3088,10 +3088,10 @@
       "enrich": {
         "grade": "A-",
         "value": "-8% UNDER",
-        "note": "Rookie deal well below tier-4 median; strong value for depth cornerback.",
+        "note": "Exceptional value for young depth CB on rookie deal; well below tier median.",
         "decision": {
           "year": 2027,
-          "type": "monitor"
+          "type": "extend"
         }
       }
     },
@@ -3126,9 +3126,9 @@
       "enrich": {
         "grade": "A-",
         "value": "-9% UNDER",
-        "note": "Elite value for depth WR; well below tier median on expiring deal.",
+        "note": "Elite value for depth WR; well below tier median on rookie deal.",
         "decision": {
-          "year": 2026,
+          "year": 2027,
           "type": "monitor"
         }
       }
@@ -3164,7 +3164,7 @@
       "enrich": {
         "grade": "A-",
         "value": "-28% UNDER",
-        "note": "Elite value for backup QB depth; well below tier-4 median.",
+        "note": "Elite value for depth QB; well below tier-4 peer median of $1.4M.",
         "decision": {
           "year": 2027,
           "type": "monitor"
@@ -3200,11 +3200,11 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.281883Z",
       "enrich": {
-        "grade": "A-",
-        "value": "-15% UNDER",
-        "note": "Elite value depth linebacker; minimal cap hit well below tier median.",
+        "grade": "A",
+        "value": "-19% UNDER",
+        "note": "Exceptional value for depth linebacker on minimum contract.",
         "decision": {
-          "year": 2027,
+          "year": 2026,
           "type": "monitor"
         }
       }
@@ -3238,9 +3238,9 @@
       ],
       "scraped_at": "2026-04-08T09:00:07.282204Z",
       "enrich": {
-        "grade": "A",
-        "value": "-19% UNDER",
-        "note": "Depth WR at league minimum; excellent value for development.",
+        "grade": "A-",
+        "value": "0% FAIR",
+        "note": "Minimal cap hit, depth WR contract exactly at peer median.",
         "decision": {
           "year": 2027,
           "type": "monitor"
