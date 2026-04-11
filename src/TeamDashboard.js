@@ -76,7 +76,7 @@ const BAR_PALETTE = (primary) => {
 // ─── shared micro-components ─────────────────────────────────────────────────
 
 // Terminal-style stat card
-const StatCard = ({ label, value, sub, accent, index = 0 }) => (
+const StatCard = ({ label, value, sub, accent, valueColor, index = 0 }) => (
   <div
     className="tc-fade-up"
     style={{
@@ -111,7 +111,7 @@ const StatCard = ({ label, value, sub, accent, index = 0 }) => (
       fontSize: 26,
       fontWeight: 600,
       margin: '0 0 5px',
-      color: accent,
+      color: valueColor ?? accent,
       letterSpacing: '-0.8px',
       lineHeight: 1,
     }}>
@@ -480,8 +480,8 @@ Scout note: ${player.note}`;
                       <tr style={{ background: primary + '12', borderBottom: '1px solid var(--border)' }}>
                         <td style={{ padding: '9px 8px', fontSize: 12, fontWeight: 700, color: 'var(--text-1)' }}>{player.fullName}</td>
                         <td style={{ padding: '9px 8px', fontFamily: 'var(--font-data)', fontSize: 11, color: 'var(--text-2)' }}>{teamCode}</td>
-                        <td style={{ padding: '9px 8px', fontFamily: 'var(--font-data)', fontSize: 12, fontWeight: 600, color: primary }}>{fmt(player.dead)}</td>
-                        <td style={{ padding: '9px 8px', fontFamily: 'var(--font-data)', fontSize: 11, color: primary }}>{fmtPct(player.dead, capCeiling)}</td>
+                        <td style={{ padding: '9px 8px', fontFamily: 'var(--font-data)', fontSize: 12, fontWeight: 600, color: 'var(--text-1)' }}>{fmt(player.dead)}</td>
+                        <td style={{ padding: '9px 8px', fontFamily: 'var(--font-data)', fontSize: 11, color: 'var(--text-2)' }}>{fmtPct(player.dead, capCeiling)}</td>
                         <td style={{ padding: '9px 8px', fontSize: 10, color: 'var(--text-3)', fontStyle: 'italic' }}>this contract</td>
                       </tr>
                       {(intel.marketContext || []).map((c, i) => (
@@ -770,7 +770,7 @@ export default function TeamDashboard() {
 
         {/* stat cards */}
         <div className="tc-stat-cards" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12, marginBottom: 16 }}>
-          <StatCard index={0} label="Cap Used (Top-51)"    value={fmt(traj2026)}               sub={'of ' + fmt(adj2026Cap) + ' adjusted ceiling'} accent={primary} />
+          <StatCard index={0} label="Cap Used (Top-51)"    value={fmt(traj2026)}               sub={'of ' + fmt(adj2026Cap) + ' adjusted ceiling'} accent={primary} valueColor='var(--text-1)' />
           <StatCard index={1} label="Cap Space"            value={fmt(capSpaceOfficial || adj2026Cap - traj2026)} sub="Top-51 remaining" accent={GREEN} />
           <StatCard index={2} label="Active Contracts"     value={ACTIVE.length}               sub={cutCandidates.length + ' cut candidates'} accent={AMBER} />
           <StatCard index={3} label="Extension Watch"      value={EXTENSION_CANDIDATES.length} sub="tier 1/2 candidates" accent={RED} />
