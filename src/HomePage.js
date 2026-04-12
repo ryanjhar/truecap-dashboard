@@ -167,6 +167,47 @@ export default function HomePage() {
         </div>
       </header>
 
+      {/* ── substack banner ── */}
+      <div style={{
+        background: 'var(--surface-2)',
+        borderBottom: '1px solid var(--border)',
+        padding: '10px 32px',
+      }}>
+        <div style={{
+          maxWidth: 1440, margin: '0 auto',
+          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16,
+          flexWrap: 'wrap',
+        }}>
+          <span style={{ fontSize: 12, color: 'var(--text-2)' }}>
+            Get TrueCap cap intelligence in your inbox — free weekly analysis.
+          </span>
+          <a
+            href="https://truecap.substack.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              background: 'var(--surface-3)',
+              color: 'var(--text-1)',
+              border: '1px solid var(--border-2)',
+              borderRadius: 6,
+              padding: '5px 14px',
+              fontSize: 11,
+              fontWeight: 600,
+              fontFamily: 'var(--font-ui)',
+              letterSpacing: '0.2px',
+              textDecoration: 'none',
+              whiteSpace: 'nowrap',
+              transition: 'border-color 0.15s, color 0.15s',
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--text-3)'; e.currentTarget.style.color = '#fff'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border-2)'; e.currentTarget.style.color = 'var(--text-1)'; }}
+          >
+            Subscribe on Substack →
+          </a>
+        </div>
+      </div>
+
       {/* ── stat banner ── */}
       <section style={{ borderBottom: '1px solid var(--border)', background: 'var(--surface)' }}>
         <div className="tc-stat-banner" style={{ maxWidth: 1440, margin: '0 auto', padding: '0 32px', display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', height: 80 }}>
